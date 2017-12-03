@@ -1,0 +1,12 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "Test",
+      "htmlOption": "nunjucks",
+      "jsPreprocessor": "es6",
+      "cssOption": "stylus",
+      "testFramework": "jasmine"
+    },
+    "version": "2.0.1"
+  }
+}
