@@ -1,9 +1,12 @@
-{% set author = "Michael" %}
+{% set author = "Michael Mörz" %}
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
 
 {% block content %}
+
+{% include '_layouts/mainmenu.nunjucks' %}
+
 <div class="main-container">
   <div class="yeogurt-info">
     <h1>Welcome to Yeogurt!</h1>

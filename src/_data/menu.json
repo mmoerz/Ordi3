@@ -1,5 +1,23 @@
 [{                                                                                                                                                    
-  "name": "Home"                                                                                                                                      
-},{                                                                                                                                                   
-  "name": "About"                                                                                                                                     
+  "name": "Home",
+  "cl": "willkommen",
+  "active": "active"
+},{
+  "name": "News",
+  "cl": "news"
+},{
+  "name": "Info",
+  "cl": "info"
+},{
+  "name": "Leistungen",
+  "cl": "leistungen"
+},{
+  "name": "Über mich",
+  "cl": "lebenslauf"
+},{
+  "name": "Team",
+  "cl": "team"
+},{
+  "name": "Adresse",
+  "cl": "adresse"
 }]

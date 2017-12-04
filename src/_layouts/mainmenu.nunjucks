@@ -1,0 +1,10 @@
+<div class="main-menu-container">
+  <!-- <% image_tag "ShortLogo.svg", alt: "Logo", class: "navLogo" %> -->
+  <nav id="mainnavbar">
+   <ul id="nav">
+     {% for item in site.data.menu %}
+       <li><a class="navBtn{{item.active}}" href="#{{item.cl}}">{{item.name}}</a></li>
+     {% endfor %}
+   </ul>
+  </nav>
+</div>
