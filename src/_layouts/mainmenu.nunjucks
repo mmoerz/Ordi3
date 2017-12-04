@@ -1,10 +1,10 @@
-<div class="main-menu-container">
+<nav class="navbar navbar-default">
   <!-- <% image_tag "ShortLogo.svg", alt: "Logo", class: "navLogo" %> -->
-  <nav id="mainnavbar">
-   <ul id="nav">
+  <div class="container-fluid">
+   <ul class="nav navbar-nav">
      {% for item in site.data.menu %}
-       <li><a class="navBtn{{item.active}}" href="#{{item.cl}}">{{item.name}}</a></li>
+       <li class="{{item.active}}"><a href="#{{item.cl}}">{{item.name}}</a></li>
      {% endfor %}
    </ul>
-  </nav>
-</div>
+  </div>
+</nav>

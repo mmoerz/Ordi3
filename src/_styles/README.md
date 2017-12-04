@@ -15,7 +15,7 @@ npm install [package name] --save
 
 ```stylus
 // Stylus
-@import '../../node_modules/bootstrap-stylus/bootstrap';
+@import '../../node_modules/bootstrap-stylus/lib/bootstrap';
 
 // CSS import
 @import '../../node_modules/normalize.css/normalize.css';
