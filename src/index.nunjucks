@@ -5,7 +5,13 @@
 
 {% block content %}
 
+<div class="container">
 {% include '_layouts/mainmenu.nunjucks' %}
+</div>
+
+<div class="main-container">
+  
+</div>
 
 <div class="main-container">
   <div class="yeogurt-info">

@@ -1,0 +1,19 @@
+{% macro onescreen(spec) %}
+
+{% set spec = spec or {} %}
+{% set _id = spec.id or '' %}
+{% set _class = spec.class or '' %}
+{% set _text = spec.text or 'Default Link' %}
+{% if onescreen_toggle = 'screen_odd' %}
+  {% set onescreen_toggle = 'screen_even' %}
+{% else %}
+  {% set onescreen_toggle = 'screen_odd' %}
+{% endif %}
+
+<div
+  id="{{_id}}"
+  class=" {{_class}}"
+>
+{{_text}}
+</a>
+{% endmacro %}

@@ -3,7 +3,7 @@
   <div class="container-fluid">
    <ul class="nav navbar-nav">
      {% for item in site.data.menu %}
-       <li class="{{item.active}}"><a href="#{{item.cl}}">{{item.name}}</a></li>
+       <li class="nav-item {{item.active}}"><a class="nav-link" href="#{{item.cl}}">{{item.name}}</a></li>
      {% endfor %}
    </ul>
   </div>
