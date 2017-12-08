@@ -1,10 +1,10 @@
-{% macro onescreen(spec) %}
+{% macro onescreen_begin(spec) %}
 
 {% set spec = spec or {} %}
 {% set _id = spec.id or '' %}
 {% set _class = spec.class or '' %}
-{% set _text = spec.text or 'Default Link' %}
-{% if onescreen_toggle = 'screen_odd' %}
+{% set _text = spec.text or 'Empty - Content Missing' %}
+{% if onescreen_toggle == 'screen_odd' %}
   {% set onescreen_toggle = 'screen_even' %}
 {% else %}
   {% set onescreen_toggle = 'screen_odd' %}
@@ -12,8 +12,12 @@
 
 <div
   id="{{_id}}"
-  class=" {{_class}}"
+  class="{{_class}} {{onescreen_toggle}}"
 >
-{{_text}}
-</a>
 {% endmacro %}
+
+{% macro onescreen_end() %}
+</div>
+{% endmacro %}
+
+

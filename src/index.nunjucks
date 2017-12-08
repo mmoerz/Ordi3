@@ -2,6 +2,7 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
+{% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 
 {% block content %}
 
@@ -9,8 +10,25 @@
 {% include '_layouts/mainmenu.nunjucks' %}
 </div>
 
+
+{% set onescreen_toggle = 'screen_odd' %}
+
+{{onescreen_begin({
+  id: 'Home',
+  text: 'Test this out'
+})}}
+
+{{onescreen_end()}}
+
+{{onescreen_begin({
+  id: 'News'
+})}}
+
+{{onescreen_end()}}
+
+
 <div class="main-container">
-  
+ Zimp 
 </div>
 
 <div class="main-container">
