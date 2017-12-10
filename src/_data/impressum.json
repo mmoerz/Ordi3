@@ -1,0 +1,22 @@
+{
+  "allgemein": "Information gemäß § 5 E-Commerce-Gesetz und Offenlegung gemäß § 25 Mediengesetz",
+
+  "details": [{
+    "title": "Diensteanbieter und Medieninhaber",
+    "text": "Dr. Marieta Mörz<br>Rußbergstrasse 94/5/1<br>1210 Wien"
+  },{
+    "title": "Kontakt",
+    "text": "Telefon: +43 1 290 02 87<br>Fax: +43 1 290 02 87 98<br>E-Mail: marieta@ordimoerz.at<br>"
+  },{
+    "title": "Kammerzugehörigkeit",
+    "text": "Österreichische Ärztekammer (Wien)"
+  },{
+    "title": "Gesetzliche Berufsbezeichnung",
+    "text": "Ärztin für Allgemeinmedizin"
+  },{
+    "title": "Staat der Verleihung der Berufsbezeichnung",
+    "text": "Österreich"
+  }],
+
+  "info": "Tätigkeit unterliegt dem Ärztegesetz 1998<br>(siehe /www.ris.bka.gv.at/bundesrecht)"
+}

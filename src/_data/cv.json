@@ -1,0 +1,59 @@
+[{
+  "activities": [{
+    "year": "2005",
+    "desc": "Promotion zur Ärztin der gesamten Heilkunde an der Universität Wien"
+  },
+  {
+    "year": "2005 – 2008",
+    "desc": "Assistenzarzttätigkeit in der Ordination Dr. Beate Mörz, Facharzt für Innere Medizin, Zusatzfacharzt für Angiologie, Prof. Dr. Reinhard Mörz, Facharzt für Innere Medizin, Zusatzfacharzt für Kardiologie, 1210 Wien"
+  },
+  {
+    "year": "2008 – 2011",
+    "desc": "Turnusarztausbildung im SMZ Floridsdorf und SMZ Ost"
+  },
+  {
+    "year": "2011 – 2015",
+    "desc": "Erstversorgung Notfallaufnahme KH Rudolfstiftung"
+  }],
+  "educations": [{
+    "ÖÄK Fortbildungsdiplom",
+    "ÖÄK Diplom für Notarzt",
+    "ÖÄK Diplom für Manuelle Medizin (Ausbildung bei Univ. Prof. Dr. Tilscher)",
+    "ÖÄK Diplom für Akupunktur",
+    "ÖÄK Ernährungsmedizin",
+    "regelmäßige Teilnahme an Fortbildungskursen (Innere Medizin Refresher, Allgemeinmedizin Refresher, Notarzt Refresher etc)"
+  }],
+  "assistent_activities": [{
+    "Diabetesschulungen incl. Insulintherapie",
+    "Blutdruckeinstellungen",
+    "Ergometrien: Durchführung, Interpretation und Befundung",
+    "Marcoumareinstellungen",
+    "Befundung von 24h EKGs und SAS Screening",
+    "Polysomnographie: Anlage, Interpretation, Therapie",
+    "Schilddrüsensonographie",
+    "Carotisduplexsonographie (incl. Vertebralisdoppler und Carotis Opthalmica Doppler)",
+    "Abdomensonographie",
+    "Nierensonographie",
+    "Gefäßsonographie (arteriell und venös)",
+    "Basiswissen der Echokardiographie"
+  }],
+  "languages": [{
+    "Englisch in Wort und Schrift",
+    "Bulgarisch nur in Wort"
+  }],
+  "member": [{
+    "member": "Mitglied der österreichischen ",
+    "of": "Ärztekammer",
+    "link": "http://www.aekwien.at" 
+  },
+  {
+    "member": "Mitglied der österreichischen",
+    "of": "Akupunkturgesellschaft",
+    "link": "http://www.akupunktur.at"
+  },
+  {
+    "member": "Mitglied der österreichischen",
+    "of": "Ärztegesellschaft für manuelle Medizin",
+    "link": "http://www.manuellemedizin.org"
+  }]
+}

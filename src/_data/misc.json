@@ -1,0 +1,18 @@
+[{
+  "openremark": "Annahmeschluss <nobr>30 Min.</nobr> vor Ordinationsende",
+
+  "location": [{
+    "street": "Rußbergstraße 94/5/1",
+    "plz": "1210 Wien"
+  }],
+
+  "tel": [{
+    "title": "Tel",
+    "nr": "290 02 87"
+  }],
+
+  "fax": [{
+    "title": "Fax",
+    "nr": "290 02 87 89"
+  }]
+}]

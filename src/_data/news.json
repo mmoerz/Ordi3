@@ -1,0 +1,26 @@
+[{                                                                                                                                                    
+  "urlaub": [{ 
+    "zeit": {
+      "von": "",
+      "bis": ""
+    },
+    "vertretung": {
+      "name": "Dr. Kazemi",
+      "tel": "",
+      "addresse": ""
+    }
+  }],
+  "archiv": [{
+    "vertretung": {
+      "name": "Dr. Nesshyba",
+      "tel": "",
+      "addresse": ""
+    },
+    "vertretung": {
+      "name": "Dr. Epp-Frühstück",
+      "tel": "",
+      "addresse": ""
+    }
+  }]
+}]
+

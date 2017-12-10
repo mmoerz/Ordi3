@@ -1,0 +1,26 @@
+[{
+  "list": [{
+    "title": "Vorsorgeuntersuchungen (Gesundenuntersuchung)"
+  },{
+    "title": "Mutter-Kind-Paß Untersuchung: interne Untersuchungen"
+  },{
+    "title": "Blutabnahmen im Rahmen der Vorsorgeuntersuchung am Mo. 8:00-9:00 und Do. 8:00-9:00"
+  },{
+    "title": "EKG"
+  },{
+    "title": "Infusionstherapie"
+  },{
+    "title": "Hausbesuche"
+  }],
+  "misc": [{
+    "info": "Dies sind jene Leistungen, die nicht von der Kassa übernommen werden",
+    "services": [{
+      "Impfungen",
+      "Ärztliches Attest",
+      "Akupunktur",
+      "Ernährungsberatung",
+      "Manuelle Therapie",
+      "Taping"
+    }]
+  }]
+}]

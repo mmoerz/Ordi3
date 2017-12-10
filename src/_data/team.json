@@ -1,0 +1,23 @@
+[{
+  "people": [{
+    "name": "Dr. Marieta",
+    "sirname": "Mörz",
+    "job": "Ärztin",
+    "foto": "marieta03_200.png"
+  },{
+    "name": "Jordanka",
+    "sirname": "Georgiev",
+    "job": "Schalter",
+    "foto": "QuestionMark.svg"
+  },{
+    "name": "Willi",
+    "sirname": "Georgiev",
+    "job": "Schalter",
+    "foto": "QuestionMark.svg"
+  },{
+    "name": "DI. Michael",
+    "sirname": "Mörz",
+    "job": "techn. Support",
+    "foto": "QuestionMark.svg"
+  }]
+}]
