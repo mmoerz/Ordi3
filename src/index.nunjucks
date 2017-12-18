@@ -6,13 +6,20 @@
 
 {% block content %}
 
+<!-- Logo -->
+{% set onescreen_toggle = 'screen_odd' %}
+{{onescreen_begin({
+id: 'Logo' 
+                  })}}
+{% include "_layouts/logo.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Menu -->
 <div class="container">
 {% include '_layouts/mainmenu.nunjucks' %}
 </div>
 
-
-{% set onescreen_toggle = 'screen_odd' %}
-
+<!-- Home -->
 {{onescreen_begin({
   id: 'Home',
   text: 'Test this out'
@@ -20,30 +27,48 @@
 
 {{onescreen_end()}}
 
+<!-- News -->
 {{onescreen_begin({
   id: 'News'
 })}}
 
 {{onescreen_end()}}
 
+<!-- Info -->
+{{onescreen_begin({
+  id: 'News'
+})}}
 
-<div class="main-container">
- Zimp 
-</div>
+{{onescreen_end()}}
 
-<div class="main-container">
-  <div class="yeogurt-info">
-    <h1>Welcome to Yeogurt!</h1>
-    <p>
-      Take a look at the {{link.content({
-        href: 'https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---',
-        text: 'documentation'
-      })}} and start mixing up something awesome.
-    </p>
-    <p>
-      <img src="images/yeogurt-swirl.png" width="75px" class="logo" />
-    </p>
-  </div>
-</div>
+<!-- Leistungen -->
+{{onescreen_begin({
+  id: 'leistungen'
+})}}
+
+{{onescreen_end()}}
+
+<!-- Lebenslauf -->
+{{onescreen_begin({
+  id: 'lebenslauf'
+})}}
+
+{{onescreen_end()}}
+
+<!-- team -->
+{{onescreen_begin({
+  id: 'team'
+})}}
+
+{{onescreen_end()}}
+
+<!-- Adresse -->
+{{onescreen_begin({
+  id: 'adresse'
+})}}
+
+{{onescreen_end()}}
+
+
 <code class="version">v2.0.1</code>
 {% endblock %}

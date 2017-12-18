@@ -15,15 +15,15 @@
     "year": "2011 – 2015",
     "desc": "Erstversorgung Notfallaufnahme KH Rudolfstiftung"
   }],
-  "educations": [{
+  "educations": [
     "ÖÄK Fortbildungsdiplom",
     "ÖÄK Diplom für Notarzt",
     "ÖÄK Diplom für Manuelle Medizin (Ausbildung bei Univ. Prof. Dr. Tilscher)",
     "ÖÄK Diplom für Akupunktur",
     "ÖÄK Ernährungsmedizin",
     "regelmäßige Teilnahme an Fortbildungskursen (Innere Medizin Refresher, Allgemeinmedizin Refresher, Notarzt Refresher etc)"
-  }],
-  "assistent_activities": [{
+  ],
+  "assistent_activities": [
     "Diabetesschulungen incl. Insulintherapie",
     "Blutdruckeinstellungen",
     "Ergometrien: Durchführung, Interpretation und Befundung",
@@ -36,12 +36,12 @@
     "Nierensonographie",
     "Gefäßsonographie (arteriell und venös)",
     "Basiswissen der Echokardiographie"
-  }],
-  "languages": [{
+  ],
+  "languages": [
     "Englisch in Wort und Schrift",
     "Bulgarisch nur in Wort"
-  }],
-  "member": [{
+  ],
+  "memberships": [{
     "member": "Mitglied der österreichischen ",
     "of": "Ärztekammer",
     "link": "http://www.aekwien.at" 
@@ -56,4 +56,4 @@
     "of": "Ärztegesellschaft für manuelle Medizin",
     "link": "http://www.manuellemedizin.org"
   }]
-}
+}]
