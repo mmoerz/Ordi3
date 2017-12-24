@@ -1,0 +1,27 @@
+<h1>Leistungen</h1>
+<div class="cv service">
+    <ul>
+      {% for item in site.data.services.liste %}
+            <li>
+              <div class="year">{{ item.title }}</div>
+              {% if item.information %}
+                {{ item.information }}
+              {% endif %}
+            </li>
+      {% endfor %}
+    </ul>
+</div>
+
+<h2>Sonstige Leistungen</h2>
+<div class="cv service">
+  {{ site.data.services.misc.info }}
+    <ul>
+      {% for item in site.data.services.misc.services %}
+        <li>
+          {{ item.title }}
+        </li>
+      {% endfor %}
+    </ul>
+</div>
+
+<div class="chart_spacer"></div>

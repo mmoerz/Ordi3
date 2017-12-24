@@ -1,18 +1,18 @@
 {
   "openremark": "Annahmeschluss <nobr>30 Min.</nobr> vor Ordinationsende",
 
-  "location": [{
+  "location": {
     "street": "Rußbergstraße 94/5/1",
     "plz": "1210 Wien"
-  }],
+  },
 
-  "tel": [{
+  "tel": {
     "title": "Tel",
     "nr": "290 02 87"
-  }],
+  },
 
-  "fax": [{
+  "fax": {
     "title": "Fax",
     "nr": "290 02 87 89"
-  }]
+  }
 }

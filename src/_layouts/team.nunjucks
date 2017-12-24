@@ -1,0 +1,18 @@
+<h1>Das Team</h1>
+  {% set teamcls = cycler("", "teamtwomember") %}
+
+  {% for member in site.data.team.people %}
+    {% if teamcls.next()
+    <% if odd_or_even == 1 %>
+      <div class="teamtwomember">
+    <% end %>
+        <article class="teammember">
+            <%= image_tag member.foto, alt: "Foto" %>
+            <p class="teammember"><%= member.name %> <%= member.sirname %> <br>(<%= member.job %>)</p>
+        </article>
+    <% if odd_or_even == 0 %>
+        </div>
+    <% end %>
+  <% end %>
+
+<div class="chart_spacer"></div>

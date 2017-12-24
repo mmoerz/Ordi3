@@ -1,0 +1,33 @@
+<h1>Aktuelles</h1>
+
+    <p><b>Bitte beachten</b> Sie, dass die Ordination an den folgenden <b>Tagen geschlossen</b> ist: 
+      <ul>
+        {% for item in site.data.news.urlaub %}
+          <li class="vacation">
+            {% if item.zeit.von %}
+              {{ item.zeit.von }}
+              {% if item.zeit.bis %}
+                bis inkl. {{ item.zeit.bis }}
+              {% endif %}
+            {% elif item.zeit.misc %}
+              {{ item.zeit.misc }}
+            {% else %}
+              <br>ZEIT FUER NEWS ITEM FEHLT</br>
+            {% endif %}
+            {% if item.info %}
+              ({{ item.info }})
+            {% endif %}
+            {% if item.vertretung %}
+              (Vertretung: {{ item.vertretung.name }}, {{ item.vertretung.adresse }}, 
+              {{ item.vertretung.tel }})
+            {% endif %}
+            {% if item.information %}
+              ({{ item.information }})
+            {% endif %}
+          </li>
+
+        {% endfor %}
+      </ul> 
+    </p>
+
+<div class="chart_spacer"></div>

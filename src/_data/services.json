@@ -1,5 +1,5 @@
-[{
-  "list": [{
+{
+  "liste": [{
     "title": "Vorsorgeuntersuchungen (Gesundenuntersuchung)"
   },{
     "title": "Mutter-Kind-Paß Untersuchung: interne Untersuchungen"
@@ -12,15 +12,20 @@
   },{
     "title": "Hausbesuche"
   }],
-  "misc": [{
+  "misc": {
     "info": "Dies sind jene Leistungen, die nicht von der Kassa übernommen werden",
     "services": [{
-      "title": "Impfungen",
-      "title": "Ärztliches Attest",
-      "title": "Akupunktur",
-      "title": "Ernährungsberatung",
-      "title": "Manuelle Therapie",
+      "title": "Impfungen"
+    },{
+      "title": "Ärztliches Attest"
+    },{
+      "title": "Akupunktur"
+    },{
+      "title": "Ernährungsberatung"
+    },{
+      "title": "Manuelle Therapie"
+    },{
       "title": "Taping"
     }]
-  }]
-}]
+  }
+}

@@ -1,0 +1,42 @@
+<div class="cv activities">
+    <h1>Lebenslauf</h1>
+    {% for activity in site.data.cv.activities %}
+      <div class="year">{{ activity.year }}</div>
+      <div class="desc">{{ activity.desc }}</div>
+      <div class="clear"></div>
+    {% endfor %}
+</div>
+
+<div class="cv educations">
+    <h2>Fortbildungen</h2>
+    {% for edu in site.data.cv.educations %}
+      <div class="education">{{ edu }}</div>
+    {% endfor %}
+</div>
+
+<div class="cv assistent_acts">
+    <h2>Tätigkeiten als Assistenzärztin</h2>
+    {% for aa in site.data.cv.assistent_activities %}
+      <div class="assistent">{{ aa }}</div>
+    {% endfor %}
+</div>
+
+<div class="clear"></div>
+
+<div class="cv languages">
+    <h2>Fremdsprachen</h2>
+    {% for lang in site.data.cv.languages %}
+      <div class="languages">{{ lang }}</div>
+    {% endfor %}
+</div>
+
+<div class="cv memberships">
+    <h2>Mitgliedschaften</h2>
+    {% for mem in site.data.cv.member %}
+      <div class="member"><{{ mem }}</div>
+      {% endfor %}
+</div>
+
+<div class="clear"></div>
+
+<div class="chart_spacer"></div>

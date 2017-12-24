@@ -1,0 +1,4 @@
+<div
+  id="{{_id}}"
+  class="{{_class}} container-fluid {{_cycle}}"
+>
