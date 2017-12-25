@@ -1,5 +1,6 @@
 {% set _cycle = onescreencls.next() %}
+<section id="{{_id}}">
 <div
   id="{{_id}}"
-  class="{{_class}} container-fluid {{_cycle}}"
+  class="{{_class}} {{_cycle}}"
 >

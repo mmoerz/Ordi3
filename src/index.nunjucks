@@ -7,35 +7,35 @@
 
 {% block content %}
  
-  {{ image.tag( 'test.svg' ) }}
-
 {% set onescreencls = cycler("screen_even", "screen_odd") %}
 
 <!-- Logo -->
-{% set _id = 'Logo' %}
+{% set _id = 'titlepage' %}
+{% set _class = 'container-fluid' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}
 {% include "_layouts/logo.nunjucks" %}
 {{onescreen_end()}}
 
+{% set _class = 'container' %}
 <!-- Menu -->
 <div class="container">
 {% include '_layouts/mainmenu.nunjucks' %}
 </div>
 
 <!-- Home -->
-{% set _id = 'Home' %}
+{% set _id = 'willkommen' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}
   {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- News -->
-{% set _id = 'News' %}
+{% set _id = 'news' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}
   {% include "_layouts/news.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Info -->
-{% set _id = 'Info' %}
+{% set _id = 'info' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}
   {% include "_layouts/info.nunjucks" %}
 {{onescreen_end()}}
@@ -64,6 +64,14 @@
   {% include "_layouts/location.nunjucks" %}
 {{onescreen_end()}}
 
-
+<!-- Impressum -->
+{% set _id = 'impressum' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  <div class="container" id="impressum">
+      <div id="bar">
+          <%= link_to "Impressum", "impressum.html" %> 
+      </div>
+    </div>
+{{onescreen_end()}}
 <code class="version">v2.99.0</code>
 {% endblock %}
