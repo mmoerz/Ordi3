@@ -3,7 +3,7 @@
   <div id="opentimes">
     {% for time in site.data.opentimes %}
       <div class="day">{{ time.day }}</div>
-      <div class="time">{{ time.begin }}/div>
+      <div class="time">{{ time.begin }}</div>
     <div class="time">-</div>
     <div class="time">{{ time.end }}</div>
     <br>

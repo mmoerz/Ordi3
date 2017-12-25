@@ -1,6 +1,13 @@
 {% set _cycle = onescreencls.next() %}
 <section id="{{_id}}">
+{% if _class == "container" %}
+  <div id="{{ _id }}"
+       class="container-fluid {{_cycle}}"
+       >
+    <div class="{{_class}}">
+{% else %}
 <div
   id="{{_id}}"
   class="{{_class}} {{_cycle}}"
->
+  >
+{% endif %}

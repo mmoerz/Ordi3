@@ -29,9 +29,16 @@
     <![endif]-->
 
     {% block content %}{% endblock %}
+    
+    <footer>
+      {% if copyright %}
+        {{ copyright }}
+      {% else %}
+        {{ site.data.global.copyright }}
+      {% endif %}
+    </footer>
 
     <script src="{{baseUrl}}scripts/main.js"></script>
     {% block scripts %}{% endblock %}
-    <!-- google analytics is missing here -->
   </body>
 </html>
