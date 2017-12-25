@@ -2,9 +2,12 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/image/image.nunjucks" as image %}
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 
 {% block content %}
+
+  {{ image.tag( 'test.svg' ) }}
 
 {% set onescreencls = cycler("screen_even", "screen_odd") %}
 

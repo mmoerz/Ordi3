@@ -1,18 +1,18 @@
 <h1>Das Team</h1>
-  {% set teamcls = cycler("", "teamtwomember") %}
+  {% set teamcls = cycler("teameven", "teamodd") %}
 
   {% for member in site.data.team.people %}
-    {% if teamcls.next()
-    <% if odd_or_even == 1 %>
+    {% set teamcycle =  teamcls.next() %}
+    {% if teamcycle == "teameven" %}
       <div class="teamtwomember">
-    <% end %>
-        <article class="teammember">
-            <%= image_tag member.foto, alt: "Foto" %>
-            <p class="teammember"><%= member.name %> <%= member.sirname %> <br>(<%= member.job %>)</p>
-        </article>
-    <% if odd_or_even == 0 %>
-        </div>
-    <% end %>
-  <% end %>
+    {% endif %}
+    <article class="teammember">
+      {{ image.tag( member.foto, alt = 'Foto' ) }}
+      <p class="teammember">{{ member.name }} {{ member.sirname }} <br>({{ member.job }})</p>
+    </article>
+    {% if teamcycle == "teamodd" %}
+      </div>
+    {% endif %}
+  {% endfor %}
 
 <div class="chart_spacer"></div>

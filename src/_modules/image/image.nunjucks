@@ -1,0 +1,6 @@
+{% macro tag(file, class='', id='', alt='', title='') %}
+
+<img class="{{ class }}" id="{{ id }}"
+     alt="{{ alt }}" title="{{ title }}" 
+     src="images/{{ file }}" />
+{% endmacro %}
