@@ -7,12 +7,12 @@
   },
 
   "tel": {
-    "title": "Tel",
+    "name": "Tel",
     "nr": "290 02 87"
   },
 
   "fax": {
-    "title": "Fax",
+    "name": "Fax",
     "nr": "290 02 87 89"
   }
 }

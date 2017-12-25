@@ -32,8 +32,8 @@
 
 <div class="cv memberships">
     <h2>Mitgliedschaften</h2>
-    {% for mem in site.data.cv.member %}
-      <div class="member"><{{ mem }}</div>
+    {% for mem in site.data.cv.memberships %}
+      <div class="member">{{ mem.member }}{{ link.content(mem.of, mem.link) }}</div>
       {% endfor %}
 </div>
 

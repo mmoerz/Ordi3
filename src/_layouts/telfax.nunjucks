@@ -1,0 +1,10 @@
+<div id="telephone">
+  <div class="telnr">
+    <h2>{{ site.data.misc.tel.name }}</h2>
+    <p>{{ site.data.misc.tel.nr }}</p> 
+  </div>
+  <div class="faxnr">
+    <h2>{{ site.data.misc.fax.name }}</h2>
+    <p>{{ site.data.misc.fax.nr }}</p>
+  </div>
+</div>

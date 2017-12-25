@@ -1,7 +1,7 @@
 <h1>Herzlich Willkommen auf meiner Homepage!</h1>
   <div id="sidebar">
-    <% include "_layouts/ordizeiten" %>
-    <% include "_layouts/telfax" %>
+    {% include "_layouts/opentimes.nunjucks" %}
+    {% include "_layouts/telfax.nunjucks" %}
   </div>
   <article>
     <p>Ich bin Ärztin für Allgemeinmedizin mit allen Kassen.

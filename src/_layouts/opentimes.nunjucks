@@ -1,0 +1,15 @@
+<div id="Ordinationszeiten">
+  <h2>Ordinations&shyzeiten</h2>
+  <div id="opentimes">
+    {% for time in site.data.opentimes %}
+      <div class="day">{{ time.day }}</div>
+      <div class="time">{{ time.begin }}/div>
+    <div class="time">-</div>
+    <div class="time">{{ time.end }}</div>
+    <br>
+  {% endfor %}
+  </div>
+  <div class="openinfo">
+    {{ site.data.misc.openremark }}
+  </div>
+</div>

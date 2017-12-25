@@ -1,18 +1,11 @@
-{% macro content(spec) %}
-
-{% set spec = spec or {} %}
-{% set _id = spec.id or '' %}
-{% set _class = spec.class or '' %}
-{% set _href = spec.href or '#' %}
-{% set _target = spec.target or '_self' %}
-{% set _text = spec.text or 'Default Link' %}
+{% macro content(text = 'Default Link', href='#', target = '_self', class = '', id = '') %}
 
 <a
-  id="{{_id}}"
-  class="link {{_class}}"
-  href="{{_href}}"
-  target="{{_target}}"
+  id="{{id}}"
+  class="link {{class}}"
+  href="{{href}}"
+  target="{{target}}"
 >
-{{_text}}
+{{text}}
 </a>
 {% endmacro %}
