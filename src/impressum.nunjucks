@@ -1,0 +1,35 @@
+{% set author = "Marieta Mörz" %}
+{% set copyright = "&copy;Copyright 2016 Dr. Marieta Mörz" %}
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/image/image.nunjucks" as image %}
+{% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
+
+{% block content %}
+
+<div class="container-fluid">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li>{{ link.content("Zurück", "index.html#impressum") }}</li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container screen_odd">
+<h1>Impressum</h1>
+<p>
+  {{ site.data.impressum.allgemein }}
+</p>
+{% for detail in site.data.impressum.details %}
+  <h2>{{ detail.title }}</h2>
+  {{ detail.text }}
+{% endfor %}
+<p>
+  {{ data.impressum.info }}
+</p>
+
+</div>
+{% endblock %}

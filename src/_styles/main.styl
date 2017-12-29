@@ -5,6 +5,7 @@
 @import '../../node_modules/normalize.css/normalize.css';
 
 @import 'colors.styl'
+@import 'misc_mixins.styl'
 
 // Import Modules
 @import '../_modules/link/link';
@@ -76,8 +77,65 @@ a {
 
 @import 'sidebar.styl'
 
+.container
+    height 100%
+
+    //font-family: "MuseoSans_Thin", Arial, sans-serif;
+    h1
+      @include margin-top-bottom(0)
+      // 0.5 em + 50px
+      padding-top 0.5em + 1.125em
+      padding-bottom 0.2em
+      text-align center
+
+.chart_spacer
+  height 5em
+
+#wichtig {
+    display: inline-flex;
+
+    ul {
+      list-style: none;
+      -webkit-padding-start: 0px;
+      margin: 0 0 0 0.5em;
+      padding: 0em;
+    }
+}
+
 // impressum
 #impressum 
     #bar
         text-align right
 
+h1 {
+  //color: rgba(0,0,0,0.5);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8em;
+  font-weight: 400;
+  margin: 0;
+  @include mobile {
+    font-size: 1.8em;
+  }
+  @include smallmobile {
+    font-size: 1.2em;
+  }
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  @include mobile {
+    font-size: 1.1em;
+  }
+  @include smallmobile {
+    font-size: 1.1em;
+  }
+}
+h3 {
+  font-weight: 400;
+  @include mobile {
+    font-size: 1.1em;
+  }
+  @include smallmobile {
+    font-size: 1.1em;
+  }
+}
