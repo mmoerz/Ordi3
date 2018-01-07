@@ -1,0 +1,20 @@
+<amp-sidebar id="sidebar" 
+             layout="nodisplay" 
+             side="right">
+  <ul>
+    <li>Nav item 1</li>
+    <li><a href="#idTwo" on="tap:idTwo.scrollTo">Nav item 2</a></li>
+    <li>Nav item 3</li>
+    <li><a href="#idFour" on="tap:idFour.scrollTo">Nav item 4</a></li>
+    <li>Nav item 5</li>
+    <li>Nav item 6</li>
+  </ul>
+  <nav toolbar="(min-width: 784px)"
+       toolbar-target="target-element-right">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+    </ul>
+  </nav>
+</amp-sidebar>

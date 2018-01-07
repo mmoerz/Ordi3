@@ -1,0 +1,21 @@
+{% set author = "Marieta Mörz" %}
+{% set copyright = "&copy;Copyright 2016 Dr. Marieta Mörz" %}
+{% set canonical = "https://www.ordimoerz.at/index.html" %}
+{% extends '_layouts/amp_base.nunjucks' %}
+
+{% block stylesheets %}
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+{% endblock %}
+
+{% block content %}
+
+{% include "_layouts/amp_sidebar.nunjucks" %}
+{% include "_layouts/logo.nunjucks" %}
+
+<div id="target-element-right">
+</div>
+
+<button on="tap:sidebar.open"
+  class="ampstart-btn caps m2">Open sidebar</button>
+
+{% endblock %}

@@ -1,42 +1,41 @@
 
-<div class="{{_class}}">
 <h1>Herzlich Willkommen auf meiner Homepage!</h1>
-  <div id="sidebar">
-    {% include "_layouts/opentimes.nunjucks" %}
-    {% include "_layouts/telfax.nunjucks" %}
-  </div>
-  <article>
-    <p>Ich bin Ärztin für Allgemeinmedizin mit allen Kassen.
-                </p>
-  </article>
-        <article>
-                <p>
-                        Wir bitten <b>alle</b> Patienten ihre Medikamentenverordnungsliste, 
-                        neueste Befunde (keine Röntgenbilder)
-                        und Entlassungsbriefe vom letzten Krankenhausaufenthalt mitzubringen.
-    </p>
-    <p>
-      Bitte beachten Sie die <a href="#news">aktuellen Informationen</a>.
-    </p>
-                <p>
-                        Wir sind bemüht Ihnen die bestmögliche individuelle Behandlung zu bieten.
-                </p>
-                <p>
-                        Unser Ziel ist es die Gesundheit, Unabhängigkeit und den Komfort unserer Patienten, sowie ihrer Familien, zu fördern.
-                </p>
-                <p>
-                        Wir nehmen uns Zeit, unseren Patienten zuzuhören und individuelle Behandlungskonzepte zu entwickeln, welche genau zu deren Bedürfnissen passen.
-    </p>
-    <div id="wichtig"><b>Wichtig: </b>
-      <div>
-        <ul>
-         <li>
-           Die E-Mail Adresse dient weder zum Empfang noch Versenden von Befunden.</li>
-      <li>Termine können nur persönlich vereinbart werden.</li>
-        </ul>
-       </div>
+<div id="sidebar">
+  {% include "_layouts/opentimes.nunjucks" %}
+  {% include "_layouts/telfax.nunjucks" %}
+</div>
+<article>
+  <p>Ich bin Ärztin für Allgemeinmedizin mit allen Kassen.
+  </p>
+</article>
+<article>
+  <p>
+    Wir bitten <b>alle</b> Patienten ihre Medikamentenverordnungsliste, 
+    neueste Befunde (keine Röntgenbilder)
+    und Entlassungsbriefe vom letzten Krankenhausaufenthalt mitzubringen.
+  </p>
+  <p>
+    Bitte beachten Sie die <a href="#news">aktuellen Informationen</a>.
+  </p>
+  <p>
+    Wir sind bemüht Ihnen die bestmögliche individuelle Behandlung zu bieten.
+  </p>
+  <p>
+    Unser Ziel ist es die Gesundheit, Unabhängigkeit und den Komfort unserer Patienten, sowie ihrer Familien, zu fördern.
+  </p>
+  <p>
+    Wir nehmen uns Zeit, unseren Patienten zuzuhören und individuelle Behandlungskonzepte zu entwickeln, welche genau zu deren Bedürfnissen passen.
+  </p>
+  <div id="wichtig"><b>Wichtig: </b>
+    <div>
+      <ul>
+        <li>
+          Die E-Mail Adresse dient weder zum Empfang noch Versenden von Befunden.
+        </li>
+        <li>Termine können nur persönlich vereinbart werden.</li>
+      </ul>
     </div>
-
-  </article>
+  </div>
+</article>
 
 <div class="chart_spacer"></div>

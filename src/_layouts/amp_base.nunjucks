@@ -1,0 +1,33 @@
+{# Custom Configuration #}
+{% block config %}
+  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+  {# Otherwise default to relative pathing #}
+  {% set baseUrl = config.baseUrl or './' %}
+{% endblock %}
+<!doctype html>
+<html ⚡ lang="de">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>{{site.data.global.siteName}}</title>
+    <link rel="canonical" href="{% if canonical %}{{canonical}}{% else %}{{site.data.global.amp.canonical}}{% endif %}">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    {% block stylesheets %}{% endblock %}
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+    <footer>
+      {% block footer %}{% endblock %}
+      <div class="footer">
+        <p>
+        {% if copyright %}
+          {{ copyright }}
+        {% else %}
+          {{ site.data.global.copyright }}
+        {% endif %}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
