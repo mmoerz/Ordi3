@@ -1,8 +1,8 @@
-{% macro amp_img(src, alt, width, height) %}
+{% macro amp_img(src, alt, width, height, class) %}
 <amp-img src="{{src}}" 
          width="{{width}}" 
          height="{{height}}" 
-           class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout"
+         class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout {{class}}"
            layout="fixed"
            alt="{{alt}}" 
            noloading=""

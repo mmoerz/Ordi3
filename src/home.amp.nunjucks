@@ -8,7 +8,7 @@
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <style amp-custom>
-  {% include '../tmp/styles/main.styl' %}
+  {% include '_css/main.amp.css' %}
   </style>
 {% endblock %}
 
@@ -18,16 +18,28 @@
 
 <header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0"
         i-amphtml-fixedid="F0" style="top: 0px">
-  <div class="ordi-navbar-trigger md-hide" 
+  <div class="ordi-navbar-trigger md-hide lg-hide" 
        role="button" 
        on="tap:sidebar.toggle"
        tabindex="0">☰</div>
   {{ amp.amp_img(src="/images/LongLogo2.svg", 
               width="208", height="40", 
-              alt="Ordi Marieta Mörz") }}
+              alt="Ordi Marieta Mörz",
+   class="mx-auto") }}
+   <nav class="navbar-nav xs-hide sm-hide">
+    <ul class="navbar-nav">
+      {% for item in site.data.menu %}
+        <li class="nav-item {{item.active}}" on="tap:{{item.cl}}.scrollTo">
+          <a class="nav-link" href="#{{item.cl}}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
 
 <div id="target-element-right">
 </div>
+      
+{% include "_layouts/home.nunjucks" %}
 
 {% endblock %}
