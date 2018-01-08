@@ -7,9 +7,13 @@
 
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-  <style amp-custom>
-  {% include '_css/main.amp.css' %}
-  </style>
+  {% if production %}
+    <style amp-custom>
+    {% include '_css/main.amp.css' %}
+    </style>
+  {% else %}
+    <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
+  {% endif %}
 {% endblock %}
 
 {% block content %}
