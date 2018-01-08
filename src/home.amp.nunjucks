@@ -9,11 +9,13 @@
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   {% if production %}
     <style amp-custom>
-    {% include '_css/main.amp.css' %}
+      {% include '_css/main.amp.css' %}
     </style>
   {% else %}
-    <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
+    <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
 {% endblock %}
 
 {% block content %}
@@ -29,16 +31,19 @@
   {{ amp.amp_img(src="/images/LongLogo2.svg", 
               width="208", height="40", 
               alt="Ordi Marieta Mörz",
-   class="mx-auto") }}
-   <nav class="navbar-nav xs-hide sm-hide">
-    <ul class="navbar-nav">
+   class="mx-auto mt1") }}
+   <nav class="ordi-headerbar-nav xs-hide sm-hide">
+    <ul class="navbar-nav justify-center flex nowrap list-reset">
       {% for item in site.data.menu %}
-        <li class="nav-item {{item.active}}" on="tap:{{item.cl}}.scrollTo">
+        <li class="nav-item" on="tap:{{item.cl}}.scrollTo">
           <a class="nav-link" href="#{{item.cl}}">{{item.name}}</a>
         </li>
       {% endfor %}
     </ul>
   </nav>
+</header>
+
+<header class="ordi-page-title">
 </header>
 
 <div id="target-element-right">

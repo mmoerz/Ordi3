@@ -1,6 +1,6 @@
 
 <h1>Herzlich Willkommen auf meiner Homepage!</h1>
-<div id="sidebar">
+<div id="timebar">
   {% include "_layouts/opentimes.nunjucks" %}
   {% include "_layouts/telfax.nunjucks" %}
 </div>

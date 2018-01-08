@@ -7,10 +7,6 @@
            alt="{{alt}}" 
            noloading=""
            style="width: {{width}}px; height: {{height}}px;">
-  <img class="i-amphtml-fill-content i-amphtml-replaced-content"
-       decoding="async" 
-       alt="{{alt}}" 
-       src="{{src}}" />
 </amp-img>
 {% endmacro %}
 
