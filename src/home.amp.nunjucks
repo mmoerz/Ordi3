@@ -4,6 +4,7 @@
 {% extends '_layouts/amp_base.nunjucks' %}
 
 {% import "_modules/amp/amp-img.nunjucks" as amp %}
+{% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -46,9 +47,12 @@
 <header class="ordi-page-title">
 </header>
 
+
+{{onescreen_begin(id="willkommen",class="mx-auto")}}
+{% include "_layouts/home.nunjucks" %}
+{{onescreen_end()}}
+
 <div id="target-element-right">
 </div>
-      
-{% include "_layouts/home.nunjucks" %}
 
 {% endblock %}

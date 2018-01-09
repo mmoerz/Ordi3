@@ -1,19 +1,10 @@
-{% macro onescreen_begin(spec) %}
-
-{% set spec = spec or {} %}
-{% set _id = spec.id or '' %}
-{% set _class = spec.class or '' %}
-{% set _text = spec.text or 'Empty - Content Missing' %}
-{% set _cycle = spec.cycle or 'onescreen_even' %}
-
-<div
-  id="{{_id}}"
-  class="{{_class}} container-fluid {{_cycle}}"
->
+{% macro onescreen_begin(id, class, cycle) %}
+<section id="{{id}}">
+  <div class="{{class}} container {{cycle}}">
 {% endmacro %}
 
 {% macro onescreen_end() %}
-</div>
+  </div>
 </section>
 {% endmacro %}
 
