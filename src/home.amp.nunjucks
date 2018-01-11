@@ -32,11 +32,11 @@
   {{ amp.amp_img(src="/images/LongLogo2.svg", 
               width="208", height="40", 
               alt="Ordi Marieta Mörz",
-   class="mx-auto mt1") }}
+   class="mx-auto mt1 hidden") }}
    <nav class="ordi-headerbar-nav xs-hide sm-hide">
-    <ul class="navbar-nav justify-center flex nowrap list-reset">
+    <ul class="ordi-headerbar-nav justify-center flex nowrap list-reset">
       {% for item in site.data.menu %}
-        <li class="nav-item" on="tap:{{item.cl}}.scrollTo">
+        <li class="ordi-headerbar-nav-item {{item.active}}" on="tap:{{item.cl}}.scrollTo">
           <a class="nav-link" href="#{{item.cl}}">{{item.name}}</a>
         </li>
       {% endfor %}
@@ -51,6 +51,15 @@
 {{onescreen_begin(id="willkommen",class="mx-auto")}}
 {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
+
+{{onescreen_begin(id="news", class="mx-auto")}}
+{% include "_layouts/news.nunjucks" %}
+{{onescreen_end()}}
+
+{{onescreen_begin(id="info",class="mx-auto")}}
+{% include "_layouts/info.nunjucks" %}
+{{onescreen_end()}}
+
 
 <div id="target-element-right">
 </div>
