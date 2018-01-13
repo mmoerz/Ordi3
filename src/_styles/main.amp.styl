@@ -2,13 +2,15 @@
 @import 'misc_mixins.styl'
 
 @import 'headerbar.styl'
-@import 'navbar.styl'
 @import 'sidebar.styl'
 
 body
   font-family 'Source Sans Pro', 'Archivo Narrow', sans-serif
   color font-color
 
+a
+  color #000000
+  
 .ml-auto, 
 .mx-auto
   margin-left auto
@@ -121,8 +123,8 @@ body
     content ""
 
 #sidebar
-  color font-color
-  background back-color
+  color #ffffff
+  background white 
   ul
     font-decoration none
     list-style none
@@ -130,6 +132,13 @@ body
     padding-left: 0
   li
     margin-top: 0.5rem
+  a
+    color font-color
+    text-decoration none
+  a:hover,
+  a:focus
+    color font-color
+    outline 0
 
 #team
     #teamlist 
@@ -195,7 +204,8 @@ body
 }
 
 .version
-  text-align right
+  display block
+  text-align center
   
 .footer
   text-align center
