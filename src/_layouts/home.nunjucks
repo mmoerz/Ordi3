@@ -5,26 +5,30 @@
   {% include "_layouts/telfax.nunjucks" %}
 </div>
 <article>
-  <p>Ich bin Ärztin für Allgemeinmedizin mit allen Kassen.
+  <p>Ich bin Ärztin für Allgemein<wbr>&shy;medizin mit allen Kassen.
   </p>
 </article>
 <article>
   <p>
-    Wir bitten <b>alle</b> Patienten ihre Medikamentenverordnungsliste, 
-    neueste Befunde (keine Röntgenbilder)
-    und Entlassungsbriefe vom letzten Krankenhausaufenthalt mitzubringen.
+    Wir bitten <b>alle</b> Patienten ihre Medikamenten<wbr>&shy;ver<wbr>&shy;ordnungs<wbr>&shy;liste, 
+    neuesten Befunde (keine Röntgen<wbr>&shy;bilder)
+    und Entlassungs<wbr>&shy;briefe vom letzten Kranken<wbr>&shy;haus<wbr>&shy;auf<wbr>&shy;enthalt 
+    mit<wbr>&shy;zu<wbr>&shy;bringen.
   </p>
   <p>
     Bitte beachten Sie die <a href="#news">aktuellen Informationen</a>.
   </p>
   <p>
-    Wir sind bemüht Ihnen die bestmögliche individuelle Behandlung zu bieten.
+    Wir sind bemüht Ihnen die best<wbr>&shy;mögliche individuelle Be<wbr>&shy;handlung zu bieten.
   </p>
   <p>
-    Unser Ziel ist es die Gesundheit, Unabhängigkeit und den Komfort unserer Patienten, sowie ihrer Familien, zu fördern.
+    Unser Ziel ist es die Gesund<wbr>&shy;heit, Una<wbr>&shy;bhängig<wbr>&shy;keit und den Komfort unserer Patienten, 
+    sowie ihrer Familien, zu fördern.
   </p>
   <p>
-    Wir nehmen uns Zeit, unseren Patienten zuzuhören und individuelle Behandlungskonzepte zu entwickeln, welche genau zu deren Bedürfnissen passen.
+  Wir nehmen uns Zeit, unseren Patienten zu<wbr>&shy;zu<wbr>&shy;hören und individuelle 
+  Be<wbr>&shy;handlungs<wbr>&shy;konzepte zu entwickeln, welche genau zu deren
+  Be<wbr>&shy;dürfnissen passen.
   </p>
   <div id="wichtig"><b>Wichtig: </b>
     <div>

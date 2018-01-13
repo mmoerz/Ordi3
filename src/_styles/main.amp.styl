@@ -78,7 +78,7 @@ body
   display block
 
 .container
-  padding 7px
+  padding 10px
   h1
     text-align center
   h2 
@@ -89,13 +89,20 @@ body
     height 3px
     background font-color
  
-.main-container
-  width 940px
-  border 1px solid rgba(0,0,0,.1)
-
 .ordi-pagepart
   padding-top headerbar-height
   z-index 100
+  width 940px
+  margin-left auto
+  margin-right auto
+  border-left 1px solid rgba(0,0,0,.1)
+  border-right 1px solid rgba(0,0,0,.1)
+
+.ordi-pagetop
+  border-top 1px solid rgba(0,0,0,.1)
+  
+.ordi-pagebottom
+  border-bottom 1px solid rgba(0,0,0,.1)
 
 .hidden
   display none
@@ -125,9 +132,6 @@ body
     margin-top: 0.5rem
 
 #team
-    min-width 100%
-    display inline-block
-
     #teamlist 
         margin auto
 
@@ -164,7 +168,6 @@ body
 
 #adresse {
     height: 100%;
-    min-width: 100%;
 
     article {
         height: 100%;
@@ -196,6 +199,10 @@ body
   
 .footer
   text-align center
+
+@media screen and (max-width: 1024px)
+  .ordi-pagepart
+    width:95%
 
 @media screen and (min-width: 480px)
   .md-hide

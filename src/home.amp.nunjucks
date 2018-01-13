@@ -6,6 +6,7 @@
 {% import "_modules/link/link.nunjucks" as link %}
 {% import "_modules/amp/amp-img.nunjucks" as amp %}
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
+{% from "_modules/wbr/wbr.nunjucks" import wbr %}
 
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -55,7 +56,7 @@
 
 
 <!-- willkommen -->
-{{onescreen_begin(id="willkommen",sclass="ordi-pagepart",class="mx-auto")}}
+{{onescreen_begin(id="willkommen",sclass="ordi-pagepart ordi-pagetop",class="mx-auto")}}
 {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
@@ -81,6 +82,7 @@
 {{onescreen_begin(id="team",sclass="ordi-pagepart",class="mx-auto")}}
 {% set ampinc = 1 %}
 {% include "_layouts/team.nunjucks" %}
+{# <div class="mx-auto container"><h1>Test</h1>Test ist ein Test</div> #}
 {{onescreen_end()}}
 
 <!-- Adresse -->
@@ -89,7 +91,7 @@
 {{onescreen_end()}}
 
 <!-- Impressum -->
-{{onescreen_begin(id="impressum",sclass="ordi-pagepart",class="mx-auto impressum")}}
+{{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
 <code class="version">v2.99.0</code>

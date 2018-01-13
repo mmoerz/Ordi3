@@ -1,9 +1,9 @@
 TODO:
 [wip] AMP framework
 links
-team
 menu
 responsive tests
+checks
 
 DONE:
-
+[done] team
