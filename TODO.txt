@@ -3,7 +3,12 @@ TODO:
 links
 menu
 responsive tests
+border for mobile remove ?
+wbr&shy
+responsive fix for team
+sitemap
 checks
+blocksatz fuer responsive mobile design?
 
 DONE:
 [done] team
