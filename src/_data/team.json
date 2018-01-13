@@ -9,16 +9,19 @@
     "name": "Jordanka",
     "sirname": "Georgiev",
     "job": "Schalter",
-    "foto": "QuestionMark.svg"
+    "foto": "QuestionMark.svg",
+    "fotos": ""
   },{
     "name": "Willi",
     "sirname": "Georgiev",
     "job": "Schalter",
-    "foto": "QuestionMark.svg"
+    "foto": "QuestionMark.svg",
+    "fotos": ""
   },{
     "name": "DI. Michael",
     "sirname": "Mörz",
     "job": "techn. Support",
-    "foto": "QuestionMark.svg"
+    "foto": "QuestionMark.svg",
+    "fotos": ""
   }]
 }

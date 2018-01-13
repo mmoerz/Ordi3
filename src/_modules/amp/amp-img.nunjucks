@@ -14,14 +14,29 @@
          width="{{width}}" 
          height="{{height}}" 
          class="{{class}}"
-         layout="responsive"
          alt="{{alt}}"
          {% if srcset %}
            srcset="{{srcset}}"
            sizes="{{sizes}}"
+           layout="responsive"
+         {% else %}
+           layout="fixed"
          {% endif  %}
            > 
 </amp-img>
 {% endmacro %}
+
+{% macro amp_img_media(media, src, alt, width, height, class) %}
+<amp-img media="{{media}}"
+         src="/images/{{src}}" 
+         width="{{width}}" 
+         height="{{height}}" 
+         class="{{class}}"
+         layout="fixed"
+         alt="{{alt}}" 
+         noloading="">
+</amp-img>
+{% endmacro %}
+
 
 

@@ -156,7 +156,6 @@ a
         text-align center
         display inline-block
         vertical-align top
-        width 210px
         p
             margin auto
             margin-top 0.83em
@@ -165,13 +164,14 @@ a
             width 100%
             border none
             
-     article.teammember   
-        margin-right 1em
-        margin-top 1em
+     article.teammember
+        margin 1em 0.5em 0 0.5em
+        width calc((100% - 3em)/2)
 
      .portrait
        border 1px solid rgba(0,0,0,.1)
        padding 5px
+       max-width: 205px
 
      .name
         font-size 1.2rem
@@ -216,7 +216,16 @@ a
 
 @media screen and (max-width: 1024px)
   .ordi-pagepart
-    width:95%
+    width 95%
+
+@media screen and (min-width: 800px)
+  .teamtwomember
+    width 49.6%
+  
+
+@media screen and (max-width: 800px)
+  .teamtwomember
+    width 100%
 
 @media screen and (min-width: 480px)
   .md-hide

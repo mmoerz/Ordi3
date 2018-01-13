@@ -10,7 +10,12 @@
 {% block content %}
 
 {% include "_layouts/amp_sidebar.nunjucks" %}
+{# 
 {% include "_layouts/logo.nunjucks" %}
+#}
+
+<amp-img alt="DownButton" layout="fixed" height="200" width="200" src="images/DownButton.svg">
+</amp-img>
 
 <div id="target-element-right">
 </div>
