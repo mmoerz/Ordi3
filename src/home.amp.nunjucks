@@ -32,13 +32,16 @@
        on="tap:sidebar.toggle"
        tabindex="0">☰</div>
   {{ amp.amp_img(src="LongLogo2.svg", 
-              width="208", height="40", 
-              alt="Ordi Marieta Mörz",
-              class="mx-auto mt1 hidden") }}
+                 width="208", height="40", 
+                 alt="Ordi Marieta Mörz",
+                 class="mx-auto mt1 hidden") }}
    <nav class="ordi-headerbar-nav xs-hide sm-hide">
     <ul class="ordi-headerbar-nav justify-center flex nowrap list-reset">
       {% for item in site.data.menu %}
-        <li class="ordi-headerbar-nav-item {{item.active}}" on="tap:{{item.cl}}.scrollTo">
+        <li class="ordi-headerbar-nav-item {{item.active}}"
+            tabindex="{{item.index}}"
+            role="button"
+            on="tap:{{item.cl}}.scrollTo">
           <a class="nav-link" href="#{{item.cl}}">{{item.name}}</a>
         </li>
       {% endfor %}
@@ -47,13 +50,11 @@
 </header>
 
 <header class="ordi-page-title center">
-  {{ amp.amp_img(src="LongLogo2.svg", 
-              width="408", height="80", 
-              alt="Ordi Marieta Mörz",
-              class="mx-auto mt1 ordi-page-title-img") }}
+  {{ amp.amp_img(src="LongLogo2.svg",
+                 width="408", height="80", 
+                 alt="Ordi Marieta Mörz",
+                 class="mx-auto mt1 ordi-page-title-img") }}
 </header>
-<div class="main-container mx-auto">
-
 
 <!-- willkommen -->
 {{onescreen_begin(id="willkommen",sclass="ordi-pagepart ordi-pagetop",class="mx-auto")}}
@@ -100,6 +101,5 @@
 <div id="target-element-right">
 </div>
 #}
-</div>
 
 {% endblock %}

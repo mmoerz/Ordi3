@@ -2,21 +2,25 @@
 <amp-img src="/images/{{src}}" 
          width="{{width}}" 
          height="{{height}}" 
-         class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout {{class}}"
-           layout="fixed"
-           alt="{{alt}}" 
-           noloading=""
-           style="width: {{width}}px; height: {{height}}px;">
+         class="{{class}}"
+         layout="fixed"
+         alt="{{alt}}" 
+         noloading="">
 </amp-img>
 {% endmacro %}
 
-{% macro amp_img_resp(src, alt, width, height, class) %}
+{% macro amp_img_resp(src, alt, width, height, class, srcset, sizes) %}
 <amp-img src="/images/{{src}}" 
          width="{{width}}" 
          height="{{height}}" 
-         class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout {{class}}"
+         class="{{class}}"
          layout="responsive"
-         alt="{{alt}}"> 
+         alt="{{alt}}"
+         {% if srcset %}
+           srcset="{{srcset}}"
+           sizes="{{sizes}}"
+         {% endif  %}
+           > 
 </amp-img>
 {% endmacro %}
 

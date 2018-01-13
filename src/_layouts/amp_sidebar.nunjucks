@@ -1,18 +1,16 @@
 <amp-sidebar id="sidebar" 
              layout="nodisplay" 
              side="right">
+  <div class="flex justify-start items-center nav-item">
+    <a class="ordi-navbar-trigger items-start" href="#" on="tap:sidebar.toggle">x</a>
+  </div>
   <ul class="navbar-nav">
     {% for item in site.data.menu %}
-      <li class="nav-item {{item.active}}"><a class="nav-link" href="#{{item.cl}}">{{item.name}}</a></li>
-    {% endfor %}
-    <li><a href="#idTwo" on="tap:idTwo.scrollTo">Nav item 2</a></li>
-  </ul>
-  <nav toolbar="(min-width: 784px)"
-       toolbar-target="target-element-right">
-    <ul>
-      <li>
-        <a href="/">Home</a>
+      <li class="nav-item {{item.active}}">
+        <a class="nav-link" href="#{{item.cl}}" on="tap:{{item.cl}}.scrollTo">
+          {{item.name}}
+        </a>
       </li>
-    </ul>
-  </nav>
+    {% endfor %}
+  </ul>
 </amp-sidebar>

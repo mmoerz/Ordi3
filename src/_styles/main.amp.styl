@@ -124,14 +124,15 @@ a
 
 #sidebar
   color #ffffff
-  background white 
+  background white
+  padding-left 1.5rem
+  padding-right 1rem
   ul
     font-decoration none
     list-style none
-    margin-left: 1rem
     padding-left: 0
   li
-    margin-top: 0.5rem
+    margin-top: 1rem
   a
     color font-color
     text-decoration none
@@ -139,6 +140,9 @@ a
   a:focus
     color font-color
     outline 0
+
+.ordi-navbar-trigger
+  font-size 2rem
 
 #team
     #teamlist 
@@ -184,7 +188,7 @@ a
 
     iframe {
         width: 100%;
-        height: calc(100% - 8.5em - 5.5em - 0.5em);  
+        height: calc(100% - 3.5em - 5.5em - 0.5em);  
     }
     @include mobile {
       iframe {
@@ -229,3 +233,6 @@ a
 @media screen and (max-width: 40rem)
   .xs-hide
     display none
+
+.last
+  margin-top 0px

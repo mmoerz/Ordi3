@@ -9,10 +9,12 @@
     <article class="teammember">
       {% if ampinc == 1 %}
         <div class="portrait">
-        {{ amp.amp_img(src=member.foto, 
+        {{ amp.amp_img_resp(src=member.foto, 
                        width="200", height="323",
                        alt="Foto",
-                       class="mx-auto ordi-page-title-img") }}
+                       class="mx-auto ordi-page-title-img",
+                       srcset=member.fotos,
+                       sizes="(max-width:300px) 40vw, (max-width:400px) 45vw") }}
         </div>
       {% else %}
         {{ image.tag( member.foto, alt = 'Foto' ) }}

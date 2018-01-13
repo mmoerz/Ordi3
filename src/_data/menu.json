@@ -1,23 +1,30 @@
 [{                                                                                                                                                    
   "name": "Home",
   "cl": "willkommen",
-  "active": "active"
+  "active": "active",
+  "index": "1"
 },{
   "name": "News",
-  "cl": "news"
+  "cl": "news",
+  "index": "2"
 },{
   "name": "Info",
-  "cl": "info"
+  "cl": "info",
+  "index": "3"
 },{
   "name": "Leistungen",
-  "cl": "leistungen"
+  "cl": "leistungen",
+  "index": "4"
 },{
   "name": "Über mich",
-  "cl": "lebenslauf"
+  "cl": "lebenslauf",
+  "index": "5"
 },{
   "name": "Team",
-  "cl": "team"
+  "cl": "team",
+  "index": "6"
 },{
   "name": "Adresse",
-  "cl": "adresse"
+  "cl": "adresse",
+  "index": "7"
 }]

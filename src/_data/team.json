@@ -3,7 +3,8 @@
     "name": "Dr. Marieta",
     "sirname": "Mörz",
     "job": "Ärztin",
-    "foto": "marieta03_200.png"
+    "foto": "marieta03_200.png",
+    "fotos": "/images/marieta03_200.png 450w, /images/marieta03_150.png 340w, /images/marieta03_125.png 300w"
   },{
     "name": "Jordanka",
     "sirname": "Georgiev",
