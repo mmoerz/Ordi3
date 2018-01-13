@@ -3,6 +3,7 @@
 {% set canonical = "https://www.ordimoerz.at/index.html" %}
 {% extends '_layouts/amp_base.nunjucks' %}
 
+{% import "_modules/link/link.nunjucks" as link %}
 {% import "_modules/amp/amp-img.nunjucks" as amp %}
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 
@@ -32,7 +33,7 @@
   {{ amp.amp_img(src="/images/LongLogo2.svg", 
               width="208", height="40", 
               alt="Ordi Marieta Mörz",
-   class="mx-auto mt1 hidden") }}
+              class="mx-auto mt1 hidden") }}
    <nav class="ordi-headerbar-nav xs-hide sm-hide">
     <ul class="ordi-headerbar-nav justify-center flex nowrap list-reset">
       {% for item in site.data.menu %}
@@ -46,11 +47,11 @@
 
 <header class="ordi-page-title center">
   {{ amp.amp_img(src="/images/LongLogo2.svg", 
-              width="208", height="40", 
+              width="408", height="80", 
               alt="Ordi Marieta Mörz",
-   class="mx-auto mt1") }}
+              class="mx-auto mt1 ordi-page-title-img") }}
 </header>
-
+<div class="main-container mx-auto">
 
 {{onescreen_begin(id="willkommen",class="mx-auto")}}
 {% include "_layouts/home.nunjucks" %}
@@ -61,11 +62,39 @@
 {{onescreen_end()}}
 
 {{onescreen_begin(id="info",class="mx-auto")}}
-{% include "_layouts/info.nunjucks" %}
+  {% include "_layouts/info.nunjucks" %}
 {{onescreen_end()}}
 
+<!-- Leistungen -->
+{{onescreen_begin(id="leistungen",class="mx-auto")}}
+  {% include "_layouts/services.nunjucks" %}
+{{onescreen_end()}}
 
+<!-- Lebenslauf -->
+{{onescreen_begin(id="lebenslauf",class="mx-auto")}}
+  {% include "_layouts/cv.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- team -->
+{{onescreen_begin(id="team",class="mx-auto")}}
+{# {% include "_layouts/team.nunjucks" %} #}
+{{onescreen_end()}}
+
+<!-- Adresse -->
+{{onescreen_begin(id="adresse",class="mx-auto")}}
+  {% include "_layouts/location.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Impressum -->
+{{onescreen_begin(id="impressum",class="mx-auto impressum")}}
+  {{ link.content( "Impressum", "impressum.html" ) }} 
+{{onescreen_end()}}
+<code class="version">v2.99.0</code>
+
+{#
 <div id="target-element-right">
+</div>
+#}
 </div>
 
 {% endblock %}
