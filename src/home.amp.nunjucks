@@ -30,7 +30,7 @@
        role="button" 
        on="tap:sidebar.toggle"
        tabindex="0">☰</div>
-  {{ amp.amp_img(src="/images/LongLogo2.svg", 
+  {{ amp.amp_img(src="LongLogo2.svg", 
               width="208", height="40", 
               alt="Ordi Marieta Mörz",
               class="mx-auto mt1 hidden") }}
@@ -46,12 +46,13 @@
 </header>
 
 <header class="ordi-page-title center">
-  {{ amp.amp_img(src="/images/LongLogo2.svg", 
+  {{ amp.amp_img(src="LongLogo2.svg", 
               width="408", height="80", 
               alt="Ordi Marieta Mörz",
               class="mx-auto mt1 ordi-page-title-img") }}
 </header>
 <div class="main-container mx-auto">
+
 
 <!-- willkommen -->
 {{onescreen_begin(id="willkommen",sclass="ordi-pagepart",class="mx-auto")}}
@@ -78,7 +79,8 @@
 
 <!-- team -->
 {{onescreen_begin(id="team",sclass="ordi-pagepart",class="mx-auto")}}
-{# {% include "_layouts/team.nunjucks" %} #}
+{% set ampinc = 1 %}
+{% include "_layouts/team.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Adresse -->

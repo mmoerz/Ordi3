@@ -1,5 +1,5 @@
 {% macro amp_img(src, alt, width, height, class) %}
-<amp-img src="{{src}}" 
+<amp-img src="/images/{{src}}" 
          width="{{width}}" 
          height="{{height}}" 
          class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout {{class}}"
@@ -9,4 +9,15 @@
            style="width: {{width}}px; height: {{height}}px;">
 </amp-img>
 {% endmacro %}
+
+{% macro amp_img_resp(src, alt, width, height, class) %}
+<amp-img src="/images/{{src}}" 
+         width="{{width}}" 
+         height="{{height}}" 
+         class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-layout {{class}}"
+         layout="responsive"
+         alt="{{alt}}"> 
+</amp-img>
+{% endmacro %}
+
 

@@ -7,8 +7,19 @@
       <div class="teamtwomember">
     {% endif %}
     <article class="teammember">
-      {{ image.tag( member.foto, alt = 'Foto' ) }}
-      <p class="teammember">{{ member.name }} {{ member.sirname }} <br>({{ member.job }})</p>
+      {% if ampinc == 1 %}
+        <div class="portrait">
+        {{ amp.amp_img(src=member.foto, 
+                       width="200", height="323",
+                       alt="Foto",
+                       class="mx-auto ordi-page-title-img") }}
+        </div>
+      {% else %}
+        {{ image.tag( member.foto, alt = 'Foto' ) }}
+      {% endif %}
+      <p class="teammember">
+        <div class="name">{{ member.name }} {{ member.sirname }}</div>
+        <div class="job">{{ member.job }}</div></p>
     </article>
     {% if teamcycle == "teamodd" %}
       </div>
