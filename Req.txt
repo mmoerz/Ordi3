@@ -1,3 +1,6 @@
 
 # Weisse Seite, sieht sauberer aus
 # Farbe tuerkis
+
+# Benutzer soll Urlaub mit Vertretung einsetzen koennen
+# Benutzer soll Einzeltage Urlaub einsetzen koennen

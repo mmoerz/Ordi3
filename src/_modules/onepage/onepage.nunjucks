@@ -1,5 +1,5 @@
-{% macro onescreen_begin(id, class, cycle) %}
-<section id="{{id}}">
+{% macro onescreen_begin(id, class, sclass, cycle) %}
+<section id="{{id}}" class="{{sclass}}">
   <div class="{{class}} container {{cycle}}">
 {% endmacro %}
 

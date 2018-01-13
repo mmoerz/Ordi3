@@ -53,40 +53,41 @@
 </header>
 <div class="main-container mx-auto">
 
-{{onescreen_begin(id="willkommen",class="mx-auto")}}
+<!-- willkommen -->
+{{onescreen_begin(id="willkommen",sclass="ordi-pagepart",class="mx-auto")}}
 {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
-{{onescreen_begin(id="news", class="mx-auto")}}
+{{onescreen_begin(id="news",sclass="ordi-pagepart",class="mx-auto")}}
 {% include "_layouts/news.nunjucks" %}
 {{onescreen_end()}}
 
-{{onescreen_begin(id="info",class="mx-auto")}}
+{{onescreen_begin(id="info",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/info.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Leistungen -->
-{{onescreen_begin(id="leistungen",class="mx-auto")}}
+{{onescreen_begin(id="leistungen",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/services.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Lebenslauf -->
-{{onescreen_begin(id="lebenslauf",class="mx-auto")}}
+{{onescreen_begin(id="lebenslauf",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/cv.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- team -->
-{{onescreen_begin(id="team",class="mx-auto")}}
+{{onescreen_begin(id="team",sclass="ordi-pagepart",class="mx-auto")}}
 {# {% include "_layouts/team.nunjucks" %} #}
 {{onescreen_end()}}
 
 <!-- Adresse -->
-{{onescreen_begin(id="adresse",class="mx-auto")}}
+{{onescreen_begin(id="adresse",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/location.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Impressum -->
-{{onescreen_begin(id="impressum",class="mx-auto impressum")}}
+{{onescreen_begin(id="impressum",sclass="ordi-pagepart",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
 <code class="version">v2.99.0</code>
