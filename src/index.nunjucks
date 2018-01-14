@@ -15,7 +15,7 @@
   <script async custom-element="amp-iframe"   src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
   {% if production == "1" %}
     <style amp-custom>
-{% include '_css/main.amp.css' %}
+      {% include '_css/main.amp.css' %}
     </style>
   {% else %}
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>

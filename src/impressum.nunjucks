@@ -8,10 +8,12 @@
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 {% from "_modules/wbr/wbr.nunjucks" import wbr %}
 
+{% set production="1" %}
+  
 {% block stylesheets %}
-  {% if production %}
+  {% if production == "1"%}
     <style amp-custom>
-      {% include '_css/main.amp.css' %}
+      {% include '_css/main.test.css' %}
     </style>
   {% else %}
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
@@ -21,9 +23,8 @@
 {% endblock %}
 
 {% block content %}
-
-<header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0"
-        i-amphtml-fixedid="F0" style="top: 0px">
+  
+<header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0">
   <div class="ordi-navbar-trigger md-hide lg-hide" 
        tabindex="0">{{link.content("&lt; Zurück", "index.html#impressum") }}</div>
   {{ amp.amp_img(src="LongLogo2.svg", 
