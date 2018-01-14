@@ -1,14 +1,65 @@
 TODO:
 [wip] AMP framework
 links
-menu
 responsive tests
 border for mobile remove ?
 wbr&shy
-responsive fix for team
 sitemap
 checks
 blocksatz fuer responsive mobile design?
+impressum
+* add telefone/fax to adress?
+* Fotos
+  - wirklich personshape
+cookie abfrage bei google tracking
+standard linkfarbe ok ?
+
+*] responsive
+  - home
+  - info
+  - news
+  - cv
+  - leistungen
+  + team
+  - adresse
+* add box to google map - was hat das zu bedeuten?
 
 DONE:
 [done] team
+[done] menu
+[done] responsive fix for team
+
+SEO - Checklist
+---------------
+[+] title tag      -  not longer than 70 chars
+[+] decription tag -  not longer than 160 chars
+[+] keywords tag   - 5 most competitive keywords
+[+] use h1/h2/h3 ...
+[+] images with alt and title tags
+[+] quality content is king = minimum of 500 words of quality content
+[?] navigation should be crawlable
+[+] Tel. nr klickbar
+[ ] robots.txt
+[+] internal links
+[+] external links
+[+] authorship markups
+  [ ]  (google authorship markup - link google+ account to page)
+[ ] track with google analytics
+[+] geo tagging - geo tag the business location
+[ ] sitemap
+[ ] webmaster tools
+[ ] xenu (broken links)
+[ ] meta tags
+[+] keep bottom links (footer) a minimum [not followed by search engines]
+[+] do not use images as links
+
+*follow onepage seo rules
+  [+] (paginate your content)
+  [+] Organize your css
+      div with id that makes sense in the context of the page AND anchor link it
+  [+] seek authority (link building)
+  [+] multiple h1 tags
+  [+] readability (site must be very readable)
+  [+] keep it fresh
+
+
