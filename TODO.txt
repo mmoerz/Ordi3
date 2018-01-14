@@ -1,28 +1,32 @@
 TODO:
-[wip] AMP framework
-links
-responsive tests
-border for mobile remove ?
-wbr&shy
-sitemap
-checks
-blocksatz fuer responsive mobile design?
-impressum
-* add telefone/fax to adress?
-* Fotos
-  - wirklich personshape
-cookie abfrage bei google tracking
-standard linkfarbe ok ?
+  notwendig:
+    [wip] AMP framework
+    nav links - menue einfaerben
+    responsive tests
+    sitemap
+    checks
+    impressum
+    cookie abfrage bei google tracking
+    fix googlemaps hoehe
+  
+  vielleicht:
+    border for mobile remove ?
+    wbr&shy
+    blocksatz fuer responsive mobile design?
+    * add telefone/fax to adress?
+    * Fotos
+      - wirklich personshape
+    standard linkfarbe ok ?
+    * add box to google map - was hat das zu bedeuten?
 
-*] responsive
-  - home
-  - info
-  - news
-  - cv
-  - leistungen
-  + team
-  - adresse
-* add box to google map - was hat das zu bedeuten?
+    *] responsive
+      - home
+      - info
+      - news
+      - cv
+      - leistungen
+      + team
+      - adresse
 
 DONE:
 [done] team
