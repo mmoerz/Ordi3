@@ -8,6 +8,7 @@ TODO:
     impressum
     cookie abfrage bei google tracking
     fix googlemaps hoehe
+    h1 abstaende design verbessern
   
   vielleicht:
     border for mobile remove ?
