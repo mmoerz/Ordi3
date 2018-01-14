@@ -1,17 +1,15 @@
 TODO:
   notwendig:
-    impressum
-    sitemap
+    Univ. med. Dr. Marieta moerz mit Logo verschmelzen
     [wip] AMP framework
       ] index.html
       ] impressum.html
     nav links - menue einfaerben
     responsive tests
     checks
-    cookie abfrage bei google tracking
     fix googlemaps hoehe
     h1 abstaende design verbessern
-    Univ. med. Dr. Marieta moerz mit Logo verschmelzen
+    cookie abfrage bei google tracking
   
   vielleicht:
     border for mobile remove ?
@@ -36,6 +34,8 @@ DONE:
 [done] team
 [done] menu
 [done] responsive fix for team
+[done] impressum
+[done] sitemap
 
 SEO - Checklist
 ---------------

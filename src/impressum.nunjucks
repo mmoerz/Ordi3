@@ -25,9 +25,7 @@
 <header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0"
         i-amphtml-fixedid="F0" style="top: 0px">
   <div class="ordi-navbar-trigger md-hide lg-hide" 
-       role="button" 
-       on="tap:sidebar.toggle"
-       tabindex="0">☰</div>
+       tabindex="0">{{link.content("&lt; Zurück", "index.html#impressum") }}</div>
   {{ amp.amp_img(src="LongLogo2.svg", 
                  width="208", height="40", 
                  alt="Ordi Marieta Mörz",

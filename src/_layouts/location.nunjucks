@@ -5,9 +5,19 @@
     {{ site.data.misc.location.plz }}
     </p>
     <!-- this is the stuff that is visible when we have enough screen -->
-    
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.179152761044!2d16.388182651148682!3d48.29595988112448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d05919582f49f%3A0xc36a89f2f50121c2!2sDr.+Marieta+M%C3%B6rz!5e0!3m2!1sde!2sat!4v1454880209068" frameborder="0" style="border:0" allowfullscreen></iframe>
-    {{ link.content( "Wegweiser / Richtungsangaben", 
-    "https://www.google.at/maps/place/Dr.+Marieta+M%C3%B6rz/@48.2959599,16.3881827,18z/data=!4m7!1m4!3m3!1s0x476d0591bee16ebd:0xcd7ec353c9fc6e07!2sRu%C3%9Fbergstra%C3%9Fe+94,+1210+Wien!3b1!3m1!1s0x476d05919582f49f:0xc36a89f2f50121c2", 
-    id= "loclink") }}
+    {% if ampinc == 1 %}
+      <amp-iframe class="google-maps"
+                width="300"
+                height="200"
+                sandbox="allow-scripts allow-same-origin"
+                layout="responsive"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.179152761044!2d16.388182651148682!3d48.29595988112448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d05919582f49f%3A0xc36a89f2f50121c2!2sDr.+Marieta+M%C3%B6rz!5e0!3m2!1sde!2sat!4v1454880209068"
+                >
+      </amp-iframe>
+    {% else %}
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.179152761044!2d16.388182651148682!3d48.29595988112448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d05919582f49f%3A0xc36a89f2f50121c2!2sDr.+Marieta+M%C3%B6rz!5e0!3m2!1sde!2sat!4v1454880209068" frameborder="0" style="border:0" allowfullscreen></iframe>
+      {{ link.content( "Wegweiser / Richtungsangaben", 
+                       "https://www.google.at/maps/place/Dr.+Marieta+M%C3%B6rz/@48.2959599,16.3881827,18z/data=!4m7!1m4!3m3!1s0x476d0591bee16ebd:0xcd7ec353c9fc6e07!2sRu%C3%9Fbergstra%C3%9Fe+94,+1210+Wien!3b1!3m1!1s0x476d05919582f49f:0xc36a89f2f50121c2", 
+                       id= "loclink") }}
+    {% endif %}
 </article>
