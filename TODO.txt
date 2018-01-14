@@ -39,7 +39,7 @@ SEO - Checklist
 [+] quality content is king = minimum of 500 words of quality content
 [?] navigation should be crawlable
 [+] Tel. nr klickbar
-[ ] robots.txt
+[+] robots.txt
 [+] internal links
 [+] external links
 [+] authorship markups
