@@ -1,94 +1,105 @@
 {% set author = "Marieta Mörz" %}
 {% set copyright = "&copy;Copyright 2016 Dr. Marieta Mörz" %}
-{% extends '_layouts/base.nunjucks' %}
+{% set canonical = "https://www.ordimoerz.at/index.html" %}
+{% extends '_layouts/amp_base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
-{% import "_modules/image/image.nunjucks" as image %}
+{% import "_modules/amp/amp-img.nunjucks" as amp %}
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
+{% from "_modules/wbr/wbr.nunjucks" import wbr %}
+
+{% block stylesheets %}
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  {% if production %}
+    <style amp-custom>
+      {% include '_css/main.amp.css' %}
+    </style>
+  {% else %}
+    <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
+  {% endif %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
+{% endblock %}
 
 {% block content %}
- 
-{% set onescreencls = cycler("screen_even", "screen_odd") %}
 
-<!-- TODO: fonts, colors, adresse wegweiser, impresum -->
+{% include "_layouts/amp_sidebar.nunjucks" %}
 
-<!-- Logo -->
-{% set _id = 'titlepage' %}
-{% set _class = 'container-fluid' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
-{% include "_layouts/logo.nunjucks" %}
+<header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0"
+        i-amphtml-fixedid="F0" style="top: 0px">
+  <div class="ordi-navbar-trigger md-hide lg-hide" 
+       role="button" 
+       on="tap:sidebar.toggle"
+       tabindex="0">☰</div>
+  {{ amp.amp_img(src="LongLogo2.svg", 
+                 width="208", height="40", 
+                 alt="Ordi Marieta Mörz",
+                 class="mx-auto mt1 hidden") }}
+   <nav class="ordi-headerbar-nav xs-hide sm-hide">
+    <ul class="ordi-headerbar-nav justify-center flex nowrap list-reset">
+      {% for item in site.data.menu %}
+        <li class="ordi-headerbar-nav-item {{item.active}}"
+            tabindex="{{item.index}}"
+            role="button"
+            on="tap:{{item.cl}}.scrollTo">
+          <a class="nav-link" href="#{{item.cl}}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<header class="ordi-page-title center">
+  {{ amp.amp_img(src="LongLogo2.svg",
+                 width="408", height="80", 
+                 alt="Ordi Marieta Mörz",
+                 class="mx-auto mt1 ordi-page-title-img") }}
+</header>
+
+
+<!-- willkommen -->
+{{onescreen_begin(id="willkommen",sclass="ordi-pagepart ordi-pagetop",class="mx-auto")}}
+{% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
-{% set _class = 'container' %}
-<!-- Menu -->
-<div class="container">
-{% include '_layouts/mainmenu.nunjucks' %}
-</div>
-
-<!-- Home -->
-{% set _id = 'willkommen' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
-  {% include "_layouts/home.nunjucks" %}
+{{onescreen_begin(id="news",sclass="ordi-pagepart",class="mx-auto")}}
+{% include "_layouts/news.nunjucks" %}
 {{onescreen_end()}}
 
-<!-- News -->
-{% set _id = 'news' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
-  {% include "_layouts/news.nunjucks" %}
-{{onescreen_end()}}
-
-<!-- Info -->
-{% set _id = 'info' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
+{{onescreen_begin(id="info",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/info.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Leistungen -->
-{% set _id = 'leistungen' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
+{{onescreen_begin(id="leistungen",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/services.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Lebenslauf -->
-{% set _id = 'lebenslauf' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
+{{onescreen_begin(id="lebenslauf",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/cv.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- team -->
-{% set _id = 'team' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
-  {% include "_layouts/team.nunjucks" %}
+{{onescreen_begin(id="team",sclass="ordi-pagepart",class="mx-auto")}}
+{% set ampinc = 1 %}
+{% include "_layouts/team.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Adresse -->
-{% set _id = 'adresse' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
+{{onescreen_begin(id="adresse",sclass="ordi-pagepart",class="mx-auto")}}
   {% include "_layouts/location.nunjucks" %}
 {{onescreen_end()}}
 
 <!-- Impressum -->
-{% set _id = 'impressum' %}
-{% include "_modules/onepage/opage_begin.nunjucks" %}
-  <div class="container" id="impressum">
-      <div id="bar">
-        {{ link.content( "Impressum", "impressum.html" ) }} 
-      </div>
-    </div>
+{{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
+  {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
 <code class="version">v2.99.0</code>
-{% endblock %}
 
-{% block scripts %}
-  <!-- TODO: check anonymous -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(["_setAccount", "UA-68161806-1"]);
-  _gaq.push(["_trackPageview"]);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+{#
+<div id="target-element-right">
+</div>
+#}
+
 {% endblock %}

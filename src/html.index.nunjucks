@@ -1,0 +1,94 @@
+{% set author = "Marieta Mörz" %}
+{% set copyright = "&copy;Copyright 2016 Dr. Marieta Mörz" %}
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/image/image.nunjucks" as image %}
+{% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
+
+{% block content %}
+ 
+{% set onescreencls = cycler("screen_even", "screen_odd") %}
+
+<!-- TODO: fonts, colors, adresse wegweiser, impresum -->
+
+<!-- Logo -->
+{% set _id = 'titlepage' %}
+{% set _class = 'container-fluid' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+{% include "_layouts/logo.nunjucks" %}
+{{onescreen_end()}}
+
+{% set _class = 'container' %}
+<!-- Menu -->
+<div class="container">
+{% include '_layouts/mainmenu.nunjucks' %}
+</div>
+
+<!-- Home -->
+{% set _id = 'willkommen' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/home.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- News -->
+{% set _id = 'news' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/news.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Info -->
+{% set _id = 'info' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/info.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Leistungen -->
+{% set _id = 'leistungen' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/services.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Lebenslauf -->
+{% set _id = 'lebenslauf' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/cv.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- team -->
+{% set _id = 'team' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/team.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Adresse -->
+{% set _id = 'adresse' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/location.nunjucks" %}
+{{onescreen_end()}}
+
+<!-- Impressum -->
+{% set _id = 'impressum' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  <div class="container" id="impressum">
+      <div id="bar">
+        {{ link.content( "Impressum", "impressum.html" ) }} 
+      </div>
+    </div>
+{{onescreen_end()}}
+<code class="version">v2.99.0</code>
+{% endblock %}
+
+{% block scripts %}
+  <!-- TODO: check anonymous -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-68161806-1"]);
+  _gaq.push(["_trackPageview"]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+{% endblock %}
