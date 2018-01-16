@@ -8,7 +8,7 @@
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 {% from "_modules/wbr/wbr.nunjucks" import wbr %}
 
-{% set production="1" %}
+{% set production="0" %}
   
 {% block stylesheets %}
   {% if production == "1"%}
@@ -21,9 +21,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
 {% endblock %}
-
+ 
 {% block content %}
-  
+     
 <header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0">
   <div class="ordi-navbar-trigger md-hide lg-hide" 
        tabindex="0">{{link.content("&lt; Zurück", "index.html#impressum") }}</div>
