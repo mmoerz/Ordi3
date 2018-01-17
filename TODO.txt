@@ -13,7 +13,6 @@ TODO:
   vielleicht:
     border for mobile remove ?
     wbr&shy
-    blocksatz fuer responsive mobile design?
     * add telefone/fax to adress?
     * Fotos
       - wirklich personshape
@@ -37,7 +36,7 @@ DONE:
 [done] impressum
 [done] sitemap
 [done] fix googlemaps hoehe
-[done] blocksatz
+[done] blocksat fuer home und info
 [done] h1 abstaende design verbessern
 
 SEO - Checklist
