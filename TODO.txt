@@ -1,7 +1,7 @@
 TODO:
   notwendig:
+    news noch aktualisieren
     Univ. med. Dr. Marieta moerz mit Logo verschmelzen
-    h1 abstaende design verbessern
     [wip] AMP framework
       ] index.html
       ] impressum.html
@@ -19,6 +19,7 @@ TODO:
       - wirklich personshape
     standard linkfarbe ok ?
     * add box to google map - was hat das zu bedeuten?
+    lebenslauf verbessern
 
     *] responsive
       - home
@@ -36,6 +37,8 @@ DONE:
 [done] impressum
 [done] sitemap
 [done] fix googlemaps hoehe
+[done] blocksatz
+[done] h1 abstaende design verbessern
 
 SEO - Checklist
 ---------------

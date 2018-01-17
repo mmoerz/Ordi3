@@ -9,7 +9,7 @@
   </p>
 </article>
 <article>
-  <p>
+  <p class="home">
     Wir bitten <b>alle</b> Patienten ihre 
     Medikamenten<wbr>&shy;ver<wbr>&shy;ordnungs<wbr>&shy;liste, 
     neuesten Befunde (keine Röntgen<wbr>&shy;bilder)
@@ -17,17 +17,17 @@
     Kranken<wbr>&shy;haus<wbr>&shy;auf<wbr>&shy;enthalt 
     mit<wbr>&shy;zu<wbr>&shy;bringen.
   </p>
-  <p>
+  <p class="home">
     Bitte beachten Sie die <a href="#news">aktuellen Informationen</a>.
   </p>
-  <p>
+  <p class="home">
     Wir sind bemüht Ihnen die best<wbr>&shy;mögliche individuelle Be<wbr>&shy;handlung zu bieten.
   </p>
-  <p>
+  <p class="home">
     Unser Ziel ist es die Gesund<wbr>&shy;heit, Unab<wbr>&shy;hängig<wbr>&shy;keit und den Komfort unserer Patienten, 
     sowie ihrer Familien, zu fördern.
   </p>
-  <p>
+  <p class="home">
   Wir nehmen uns Zeit, unseren Patienten zu<wbr>&shy;zu<wbr>&shy;hören und individuelle 
   Be<wbr>&shy;handlungs<wbr>&shy;konzepte zu entwickeln, welche genau zu deren
   Be<wbr>&shy;dürfnissen passen.
