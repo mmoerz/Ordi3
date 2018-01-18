@@ -1,9 +1,5 @@
 TODO:
   notwendig:
-    [wip] AMP framework
-      ] index.html
-      ] impressum.html
-    responsive tests
     checks
   
   vielleicht:
@@ -29,6 +25,12 @@ TODO:
       + team
       - adresse
 
+Version - Checklist:
+-------------------
+[ ] AMP (#development=1) {development console output}
+[ ] mobile responsive resizing tests
+
+
 DONE:
 [done] team
 [done] menu
@@ -42,6 +44,9 @@ DONE:
 [done] wirklich personshape
 [done] tel/fax responsive (fax/tel link nur bei mobile)
 [done] news noch aktualisieren
+[done] fixed invalid protocol fax, copyright, fax&tel nr wrong line problem
+[done] AMP framework = index.html & impressum.html
+[done] responsive tests
 
 SEO - Checklist
 ---------------

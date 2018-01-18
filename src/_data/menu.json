@@ -1,7 +1,7 @@
 [{                                                                                                                                                    
   "name": "Home",
   "cl": "willkommen",
-  "active": "active",
+  "active": "inactive",
   "index": "1"
 },{
   "name": "News",
