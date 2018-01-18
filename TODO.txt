@@ -3,7 +3,6 @@ TODO:
     [wip] AMP framework
       ] index.html
       ] impressum.html
-    nav links - menue einfaerben
     responsive tests
     checks
   
@@ -17,6 +16,9 @@ TODO:
     lebenslauf verbessern
     news link und menue und page nur anzeigen wenn eine news vorhanden ist.
     cookie abfrage bei google tracking
+    nav links - menue einfaerben (scheint unheimlich kompliziert)
+      - amp-bind ?
+      - <amp-selector role="tablist" ?
 
     *] responsive
       - home
@@ -40,8 +42,6 @@ DONE:
 [done] wirklich personshape
 [done] tel/fax responsive (fax/tel link nur bei mobile)
 [done] news noch aktualisieren
-
-
 
 SEO - Checklist
 ---------------

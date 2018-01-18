@@ -19,7 +19,10 @@
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <style amp-custom>
+    <!-- replace -->
+  </style>
 {% endblock %}
  
 {% block content %}

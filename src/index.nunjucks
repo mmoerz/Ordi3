@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <style amp-custom>
+    <!-- replace -->
+  </style>
 {% endblock %}
 
 {% block content %}
@@ -100,7 +103,7 @@
 {{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
-<code class="version">v2.99.0</code>
+<code class="version">v3.00.1</code>
 
 {#
 <div id="target-element-right">
