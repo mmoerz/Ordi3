@@ -10,11 +10,6 @@
   </div>
   <div class="faxnr">
     <h2>{{ site.data.misc.fax.name }}</h2>
-    <p class="faxnr lg-hide">
-      <a class="faxnr" href="fax:{{ site.data.misc.fax.fullnr }}">
-        {{ site.data.misc.fax.nr }}
-      </a>
-    </p>
-    <p class="xs-hide">{{ site.data.misc.fax.nr }}</p>
+    <p>{{ site.data.misc.fax.nr }}</p>
   </div>
 </div>
