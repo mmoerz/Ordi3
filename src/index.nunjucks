@@ -53,9 +53,9 @@
     </ul>
   </nav>
 </header>
-
+  
 <header class="ordi-page-title center">
-  {{ amp.amp_img(src="LongLogo2.svg",
+  {{ amp.amp_img(src="LongLogo3.svg",
                  width="408", height="80", 
                  alt="Ordi Marieta Mörz",
                  class="mx-auto mt1 ordi-page-title-img") }}

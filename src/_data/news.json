@@ -5,21 +5,27 @@
       "bis": "09.02.2018"
     },
     "vertretung": {
-      "name": "Dr. Kazemi",
-      "tel": "",
-      "addresse": ""
+      "name": "Dr. Autrata",
+      "tel": "01 / 270 16 80",
+      "fullnr" : "004312701680",
+      "adresse": "Prager Straße 83/1, 1210 Wien"
     }
   }],
   "archiv": [{
     "vertretung": {
       "name": "Dr. Nesshyba",
       "tel": "",
-      "addresse": ""
+      "adresse": ""
     },
     "vertretung": {
       "name": "Dr. Epp-Frühstück",
       "tel": "",
       "addresse": ""
+    },
+    "vertretung": {
+      "name": "Dr. Kazemi",
+      "tel": "",
+      "adresse": ""
     }
   }]
 }

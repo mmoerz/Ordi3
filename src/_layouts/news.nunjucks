@@ -4,6 +4,7 @@
       <ul>
         {% for item in site.data.news.urlaub %}
           <li class="vacation">
+            <div class="time">
             {% if item.zeit.von %}
               {{ item.zeit.von }}
               {% if item.zeit.bis %}
@@ -14,12 +15,23 @@
             {% else %}
               <br>ZEIT FUER NEWS ITEM FEHLT</br>
             {% endif %}
+            </div>
             {% if item.info %}
-              ({{ item.info }})
+              <div class="info">
+                ({{ item.info }})
+              </div>
             {% endif %}
             {% if item.vertretung %}
-              (Vertretung: {{ item.vertretung.name }}, {{ item.vertretung.adresse }}, 
-              {{ item.vertretung.tel }})
+              <div class="vertretung">
+              (
+              Vertretung: {{ item.vertretung.name }}, {{ item.vertretung.adresse }}, 
+              <div class="telnr lg-hide">
+                <a class="telnr" href="tel:{{ item.vertretung.fullnr }}">
+                  {{ item.vertretung.tel }}
+                </a>
+              </div>
+              <div class="telnr xs-hide">{{ item.vertretung.tel }}</div>)
+              </div>
             {% endif %}
             {% if item.information %}
               ({{ item.information }})

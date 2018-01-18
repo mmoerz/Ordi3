@@ -1,10 +1,20 @@
 <div id="telephone">
   <div class="telnr">
     <h2>{{ site.data.misc.tel.name }}</h2>
-    <p><a href="tel:{{ site.data.misc.tel.fullnr }}">{{ site.data.misc.tel.nr }}</a></p> 
+    <p class="telnr lg-hide">
+      <a class="telnr" href="tel:{{ site.data.misc.tel.fullnr }}">
+        {{ site.data.misc.tel.nr }}
+      </a>
+    </p>
+    <p class="xs-hide">{{ site.data.misc.tel.nr }}</p>
   </div>
   <div class="faxnr">
     <h2>{{ site.data.misc.fax.name }}</h2>
-    <p>{{ site.data.misc.fax.nr }}</p>
+    <p class="faxnr lg-hide">
+      <a class="faxnr" href="fax:{{ site.data.misc.fax.fullnr }}">
+        {{ site.data.misc.fax.nr }}
+      </a>
+    </p>
+    <p class="xs-hide">{{ site.data.misc.fax.nr }}</p>
   </div>
 </div>
