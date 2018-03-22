@@ -32,11 +32,11 @@
 {% include "_layouts/amp_sidebar.nunjucks" %}
 
 <header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0">
-  <div class="ordi-navbar-trigger md-hide lg-hide" 
+  <div class="ordi-navbar-trigger lg-hide" 
        role="button" 
        on="tap:sidebar.toggle"
        tabindex="0">☰</div>
-  <div class="ordi-headerbar-name md-hide lg-hide">
+  <div class="ordi-headerbar-name lg-hide">
     Dr. med. univ Marieta Mörz
   </div>
   {{ amp.amp_img(src="LongLogo2.svg", 

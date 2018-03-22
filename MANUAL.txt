@@ -1,1 +1,5 @@
-replace stylesheet include with contents of style sheet file in a <style amp-custom> tag
+replace stylesheet include with contents of style sheet file _styles/amp.main.styl
+in a <style amp-custom></style> tag
+
+Do a gulp build before
+use the results in the tmp dir to modify them

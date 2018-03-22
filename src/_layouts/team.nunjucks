@@ -8,7 +8,7 @@
     {% endif %}
     <article class="teammember">
       {% if ampinc == 1 %}
-        <div class="portrait">
+        <div class="mx-auto portrait">
         <amp-img src="/images/{{member.foto}}"
                  {% if member.fotos != "" %}
                    srcset="{{member.fotos}}"
