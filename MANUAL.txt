@@ -1,0 +1,1 @@
+replace stylesheet include with contents of style sheet file in a <style amp-custom> tag

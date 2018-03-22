@@ -48,6 +48,7 @@ DONE:
 [done] AMP framework = index.html & impressum.html
 [done] responsive tests
 [done] active (menu item) fix
+[done] incl -> inklusive
 
 SEO - Checklist
 ---------------

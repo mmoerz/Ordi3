@@ -1,14 +1,24 @@
 {                                                                                                                                                    
   "urlaub": [{ 
     "zeit": {
-      "von": "02.02.2018",
-      "bis": "09.02.2018"
+      "von": "26.03.2018",
+      "bis": "03.04.2018"
     },
     "vertretung": {
-      "name": "Dr. Autrata",
-      "tel": "01 / 270 16 80",
-      "fullnr" : "004312701680",
-      "adresse": "Prager Straße 83/1, 1210 Wien"
+      "name": "Dr. Stonawski",
+      "tel": "01 / 271 11 92",
+      "fullnr" : "004312711192",
+      "adresse": "Weisselgasse 16, 1210 Wien"
+    }
+  },{
+    "zeit": {
+      "von": "16.07.2018",
+      "bis": "27.07.2018"
+    }
+  },{
+    "zeit": {
+      "von": "20.08.2018",
+      "bis": "24.08.2018"
     }
   }],
   "archiv": [{
@@ -26,6 +36,12 @@
       "name": "Dr. Kazemi",
       "tel": "",
       "adresse": ""
+    },
+    "vertretung": {
+      "name": "Dr. Autrata",
+      "tel": "01 / 270 16 80",
+      "fullnr" : "004312701680",
+      "adresse": "Prager Straße 83/1, 1210 Wien"
     }
   }]
 }
