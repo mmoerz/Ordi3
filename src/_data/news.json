@@ -1,36 +1,50 @@
 {                                                                                                                                                    
-  "urlaub": [{ 
+  "urlaub": [{
     "zeit": {
-      "von": "26.03.2018",
-      "bis": "03.04.2018"
+      "von": "16.07.2018",
+      "bis": "20.07.2018"
     },
     "vertretung": {
-      "name": "Dr. Stonawski",
-      "tel": "01 / 271 11 92",
-      "fullnr" : "004312711192",
-      "adresse": "Weisselgasse 16, 1210 Wien"
+      "name": "Dr. Epp-Frühstück",
+      "tel": "01 / 292 14 70",
+      "fullnr": "0043012921470",
+      "adresse": "Kaingasse 22, 1210 Wien"
     }
   },{
     "zeit": {
-      "von": "16.07.2018",
+      "von": "23.07.2018",
       "bis": "27.07.2018"
+    },
+    "vertretung": {
+      "name": "Dr. Nesshyba",
+      "tel": "01 / 294 19 70",
+      "fullnr": "0043012941970",
+      "adresse": "Roda-Roda-Gasse 2, 1210 Wien"
     }
   },{
     "zeit": {
       "von": "20.08.2018",
       "bis": "24.08.2018"
+    },
+    "vertretung": {
+      "name": "Dr. Nesshyba",
+      "tel": "01 / 294 19 70",
+      "fullnr": "0043012941970",
+      "adresse": "Roda-Roda-Gasse 2, 1210 Wien"
     }
   }],
   "archiv": [{
     "vertretung": {
       "name": "Dr. Nesshyba",
-      "tel": "",
-      "adresse": ""
+      "tel": "01 / 294 19 70",
+      "fullnr": "0043012941970",
+      "adresse": "Roda-Roda-Gasse 2, 1210 Wien"
     },
     "vertretung": {
       "name": "Dr. Epp-Frühstück",
-      "tel": "",
-      "addresse": ""
+      "tel": "01 / 292 14 70",
+      "fullnr": "0043012921470",
+      "adresse": "Kaingasse 22, 1210 Wien"
     },
     "vertretung": {
       "name": "Dr. Kazemi",
@@ -42,6 +56,16 @@
       "tel": "01 / 270 16 80",
       "fullnr" : "004312701680",
       "adresse": "Prager Straße 83/1, 1210 Wien"
+    },
+    "zeit": {
+      "von": "26.03.2018",
+      "bis": "03.04.2018"
+    },
+    "vertretung": {
+      "name": "Dr. Stonawski",
+      "tel": "01 / 271 11 92",
+      "fullnr" : "004312711192",
+      "adresse": "Weisselgasse 16, 1210 Wien"
     }
   }]
 }
