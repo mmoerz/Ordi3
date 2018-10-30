@@ -41,9 +41,9 @@
         {% endfor %}
       </ul> 
     </p>
-    <p>Weiters <b>beachten Sie bitte</b>, dass wir aufgrund der DSGVO derzeit
-    keine personenbezogene Daten, Befunde oder Bewerbunge mehr über E-Mail
-    annehmen. Alle auf diesem Wege eingelangten personenbezogene Daten werden
+    <p>Weiters <b>beachten Sie bitte, dass wir </b>aufgrund der DSGVO derzeit
+    <b>keine personenbezogene Daten, Befunde oder Bewerbunge</b> mehr <b>über E-Mail
+    annehmen</b>. Alle auf diesem Wege eingelangten personenbezogene Daten werden
     ungelesen gelöscht.
     </p>
 <div class="chart_spacer"></div>
