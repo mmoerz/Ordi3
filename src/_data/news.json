@@ -1,8 +1,8 @@
-{                                                                                                                                                    
+{
   "urlaub": [{
     "zeit": {
-      "von": "31.10.2018",
-      "bis": "02.11.2018"
+      "von": "15.07.2019",
+      "bis": "26.07.2019"
     },
     "vertretung": {
       "name": "Dr. Kazemi",
@@ -10,16 +10,17 @@
       "fullnr": "0043012921416",
       "adresse": "Scheydgasse 3/1/1, 1210 Wien"
     }
-  },{
+    },
+    {
     "zeit": {
-      "von": "27.12.2018",
-      "bis": "04.01.2019"
+      "von": "16.08.2019",
+      "bis": "23.08.2019"
     },
     "vertretung": {
-      "name": "Dr. Christian Dattler",
-      "tel": "01 / 290 32 32",
-      "fullnr": "0043012903232",
-      "adresse": "Stammersdorferstr. 113, 1210 Wien"
+      "name": "Dr. Steurer",
+      "tel": "01 / 292 80 08",
+      "fullnr": "0043012928008",
+      "adresse": "Gerasdorferstr. 55/Stiege 195, 1210 Wien"
     }
   }],
   "archiv": [{
