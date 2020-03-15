@@ -1,17 +1,6 @@
 {
   "urlaub": [{
     "zeit": {
-      "von": "03.02.2020",
-      "bis": "07.02.2020"
-    },
-    "vertretung": {
-      "name": "Dr. Hofer",
-      "tel": "01 / 292 14 16",
-      "fullnr": "0043012701081",
-      "adresse": "Autokaderstrasse 3-7/52/2, 1210 Wien"
-    }
-  },{
-    "zeit": {
       "von": "06.04.2020",
       "bis": "10.04.2020"
     },
