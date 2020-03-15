@@ -1,26 +1,25 @@
 {
   "urlaub": [{
     "zeit": {
-      "von": "28.10.2019",
-      "bis": "31.1.2019"
-    ,
+      "von": "03.02.2020",
+      "bis": "07.02.2020"
+    },
     "vertretung": {
-      "name": "Dr. Kazemi",
+      "name": "Dr. Hofer",
       "tel": "01 / 292 14 16",
-      "fullnr": "0043012921416",
-      "adresse": "Scheydgasse 3/1/1, 1210 Wien"
+      "fullnr": "0043012701081",
+      "adresse": "Autokaderstrasse 3-7/52/2, 1210 Wien"
     }
-    },
-    {
+  },{
     "zeit": {
-      "von": "23.12.2019",
-      "bis": "3.01.2020"
+      "von": "06.04.2020",
+      "bis": "10.04.2020"
     },
     "vertretung": {
-      "name": "Dr. Wais",
-      "tel": "01 / 290 90 15",
-      "fullnr": "0043012909015",
-      "adresse": "Brünnerstr. 120, 1210 Wien"
+      "name": "Dr. Epp-Frühstück",
+      "tel": "01 / 292 14 70",
+      "fullnr": "0043012921470",
+      "adresse": "Kaingasse 22, 1210 Wien"
     }
   }],
   "archiv": [{
@@ -65,6 +64,12 @@
       "tel": "01 / 292 80 08",
       "fullnr": "0043012928008",
       "adresse": "Gerasdorferstr. 55/Stiege 195, 1210 Wien"
+    },
+    "vertretung": {
+      "name": "Dr. Wais",
+      "tel": "01 / 290 90 15",
+      "fullnr": "0043012909015",
+      "adresse": "Brünnerstr. 120, 1210 Wien"
     }
   }],
   "hinweis": [{
