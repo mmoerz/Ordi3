@@ -31,6 +31,12 @@
   {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
+<!-- Krankmeldung -->
+{% set _id = 'krankmeldung' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/krankmeldung.nunjucks" %}
+{{onescreen_end()}}
+
 <!-- News -->
 {% set _id = 'news' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}

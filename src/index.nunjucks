@@ -12,7 +12,8 @@
 
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-  <script async custom-element="amp-iframe"   src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  <script async custom-element="amp-iframe"  src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"> </script>
+  <script async custom-element="amp-form"    src="https://cdn.ampproject.org/v0/amp-form-0.1.js">   </script>
   {% if production == "1" %}
     <style amp-custom>
       {% include '_css/main.amp.css' %}
@@ -68,6 +69,10 @@
 <!-- willkommen -->
 {{onescreen_begin(id="willkommen",sclass="ordi-pagepart ordi-pagetop",class="mx-auto")}}
 {% include "_layouts/home.nunjucks" %}
+{{onescreen_end()}}
+
+{{onescreen_begin(id="krankmeldung",sclass="ordi-pagepart",class="mx-auto")}}
+{% include "_layouts/krankmeldung.nunjucks" %}
 {{onescreen_end()}}
 
 {{onescreen_begin(id="news",sclass="ordi-pagepart",class="mx-auto")}}

@@ -1,0 +1,63 @@
+<h1>Krankmeldung</h1>
+  <p>
+    Um die Administration von Vertretungspatienten,
+    die noch nie bei uns in der Ordination waren, zügig abwickeln zu können:
+  </p>
+  <p>
+    Per E-mail an marieta@ordimoerz.at folgende Informationen als Text!!! 
+    (Anhänge können technisch nicht geöffnet werden) schicken, um als
+    Patient in unser System übernommen werden zu können und zu den
+    Ordinationszeiten zurückgerufen zu werden:
+  </p>
+  <form name="Vertretungspatient" method="post" action="mailto:marieta@ordimoerz.at" enctype="text/plain">
+    <input type="hidden" name="subject" 
+     value="Webseite ordimoerz Vertretungspatient">
+
+    Vorname:<br>
+    <input type="text" Name="Vorname" size="40"><br>
+    Nachname:<br>
+    <input type="text" Name="Nachname" size="40"><br>
+    Versicherungsnummer:<br>
+    <input type="text" Name="Versicherungsnr"><br>
+    Geburtsdatum:<br>
+    <input type="date" Name="Geburtsdatum"><br>
+    Versicherungsträger: SVA, BVA, ÖGK, VA, KFA<br>
+    <input type="text" Name="Versicherungstraeger"><br>
+    Wohnadresse:<br>
+    <textarea Name="Wohnadresse" rows="4"></textarea><br>
+    E-mail:<br>
+    <input type="email" Name="Email"><br>
+    Telefonnummer:<br>
+    <input type="text" Name="Telefonnr"><br>
+    Normalerweise prakt. Arzt:<br>
+    <textarea Name="Normalerweise prakt. Arzt" rows="2"></textarea><br>
+    Arbeitsgeber:<br> 
+    <textarea Name="Arbeitgeber" rows="4"></textarea><br>
+    Adresse des Arbeitsgebers:<br>
+    <textarea Name="Adresse Arbeitgeber" rows="4"></textarea><br>
+    Bekannte Allergie:<br>
+    <input type="text" Name="Bekannte Allergien"><br>
+    Dauermedikamente:<br>
+    <input type="text" Name="Dauermedikamente"><br>
+    Chron. Erkrankungen: wie zB. Herzinfarkt, Schlaganfall, Diabetes, Bluthochdruck,
+    Krebserkrankungen<br>
+    <input type="text" Name="chron. Erkrankungen"><br>
+    Frauen: Schwangerschaft? Stillzeit?<br>
+    <input type="text" Name="Frauen?"><br>
+    <span></span> 
+
+  <input type="submit" value="E-Mail ">
+  </form>
+
+  <p>
+    Die Krankmeldung kann Ihnen als pdf elektronisch zugesandt werden
+    und der Arbeitgeber kann unter dem ELDA Portal Ihre Krankmeldung einsehen.
+  </p>
+  <p>
+    Es werden <b>NUR</b> im Krankheitsfall Krankmeldungen ausgestellt. 
+  </p>
+  <p>
+    Freistellung macht <b>NUR</b> der Arbeitgeber.
+  </p>
+
+<div class="chart_spacer"></div>
