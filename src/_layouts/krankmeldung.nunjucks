@@ -4,11 +4,33 @@
     die noch nie bei uns in der Ordination waren, zügig abwickeln zu können:
   </p>
   <p>
-    Per E-mail an marieta@ordimoerz.at folgende Informationen als Text!!! 
-    (Anhänge können technisch nicht geöffnet werden) schicken, um als
+    Schicken Sie per E-mail an <a
+    href="mailto:marieta@ordimoerz.at?subject=Webseite%20Vertretungspatient&body=Vorname%3A%0ANachname%3A%0AVersicherungsnummer%3A%0AGeburtstag%3A%0AVersicherungstr%C3%A4ger%3A%20SVA%2C%20BVA%2C%20%C3%96GK%2C%20VA%2C%20KFA%0AWohnadresse%3A%0AEmail%3A%0ATelefonnummer%3A%0ANormalerweise%20prakt.%20Arzt%3A%0AArbeitsgeber%20und%20Adresse%3A%0ABekannte%20Allergie%3A%0ADauermedikamente%3A%0AChron.%20Erkrankungen%3A%20Herzinfarkt%2C%20Schlaganfall%2C%20Diabetes%2C%20Bluthochdruck%2C%20Krebserkrankungen%0AFrauen%3A%20Schwangerschaft%3F%20Stillzeit%3F">marieta@ordimoerz.at</a> folgende Informationen als Text!!! 
+    (Anhänge können technisch nicht geöffnet werden), um als
     Patient in unser System übernommen werden zu können und zu den
-    Ordinationszeiten zurückgerufen zu werden:
+    Ordinationszeiten zurückgerufen zu werden: 
+    <!-- Nutzen Sie dazu als Hilfe folgendes Formular: -->
+
   </p>
+  <p>
+    Vorname:<br>
+    Nachname:<br>
+    Versicherungsnummer:<br>
+    Geburtstag:<br>
+    Versicherungsträger: SVA, BVA, ÖGK, VA, KFA<br>
+
+    Wohnadresse:<br>
+    Email:<br>
+    Telefonnummer:<br>
+    Normalerweise prakt. Arzt:<br>
+    Arbeitsgeber und Adresse:<br>
+    Bekannte Allergie:<br>
+    Dauermedikamente:<br>
+    Chron. Erkrankungen: Herzinfarkt, Schlaganfall, Diabetes, Bluthochdruck, Krebserkrankungen<br>
+    Frauen: Schwangerschaft? Stillzeit?<br>
+  </p>
+
+  <!--
   <form name="Vertretungspatient" method="post" action="mailto:marieta@ordimoerz.at" enctype="text/plain">
     <input type="hidden" name="subject" 
      value="Webseite ordimoerz Vertretungspatient">
@@ -48,7 +70,7 @@
 
   <input type="submit" value="E-Mail ">
   </form>
-
+  -->
   <p>
     Die Krankmeldung kann Ihnen als pdf elektronisch zugesandt werden
     und der Arbeitgeber kann unter dem ELDA Portal Ihre Krankmeldung einsehen.
