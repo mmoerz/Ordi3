@@ -2,15 +2,13 @@
   <p>
     Aufgrund der aktuellen Ereignisse bezüglich Corona Virus möchten wir Sie
     über Verhaltens<wbr>&shy;regeln bei Verdachts<wbr>&shy;fällen informieren:
-    Sollten Sie sich in den letzten 14 Tagen in Tirol, Italien,
-    Deutschland, Frankreich und Finnland sowie China und anderen
-    süd<wbr>&shy;ost<wbr>&shy;asiatischen Staaten auf<wbr>&shy;gehalten haben
-    und folgende Symptome, vor allem in Kombination, aufweisen, wie:
+    Sollten Sie folgende Symptome, vor allem in Kombination, aufweisen:
     <ul>
-      <li> Sehr hohes Fieber (40 Grad)</li>
-      <li> Kopfschmerzen</li>
+      <li>Sehr hohes Fieber (40 Grad)</li>
+      <li>Kopfschmerzen</li>
       <li>Husten</li>
       <li>Gliederschmerzen</li>
+      <li>Veränderung des Geruch- und Geschmacksinn</li>
     </ul>
     bitten wir Sie aufgrund der sehr hohen Ansteckungs<wbr>&shy;gefahr die Ordination
     <b>NICHT</b> auf<wbr>&shy;zu<wbr>&shy;suchen, sondern sich an die <b>Hotline 0800 555 621</b> 
@@ -59,9 +57,11 @@
         {% endfor %}
       </ul> 
     </p>
+    <!--
     <p>Weiters <b>beachten Sie bitte, dass wir </b>aufgrund der DSGVO derzeit
     <b>keine personenbezogene Daten, Befunde oder Bewerbunge</b> mehr <b>über E-Mail
     annehmen</b>. Alle auf diesem Wege eingelangten personenbezogene Daten werden
     ungelesen gelöscht.
     </p>
+    -->
 <div class="chart_spacer"></div>

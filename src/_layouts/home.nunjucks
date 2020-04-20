@@ -59,6 +59,20 @@
         </b>
       </li>
       <li>
+        <b>
+        ALLE PATIENTEN MÜSSEnN EINEN MUND/NASESCHUTZ 
+        MITBRINGEN !!!
+        </b>
+      </li>
+      <li>
+        Kranke Patienten melden sich bitte telefonisch, dann wird das
+        weitere Vorgehen besprochen.
+      </li>
+      <li>
+        Patienten für Untersuchungen müssen sich die Hände
+        desinfizieren - Wandspender steht im Warteraum
+      </li>
+      <li>
         Rezepte für Dauer<wbr>&shy;medikamente können <b>telefonisch</b> unter
         <b><a class="telnr" href="tel:012900287">01/2900287</a></b>
         zu den Ordinations<wbr>&shy;zeiten bzw. außerhalb der
@@ -70,17 +84,8 @@
         be<wbr>&shy;stellt werden.
       </li>
       <li>
-        Ich arbeite mit der Danubia Apotheke, Ruß<wbr>&shy;berg<wbr>&shy;straße 64,
-        zusammen und werde die Rezepte persönlich dorthin bringen. 
-        Sie werden dann von der Apotheke angerufen, wenn die Medikamente
-        zur Ab<wbr>&shy;holung bereit sind (falls keine jungen
-        Familien<wbr>&shy;mitglieder zur Ab<wbr>&shy;holung zur
-        Ver<wbr>&shy;fügung stehen oder Sie unter Quarantäne stehen,
-        dann bietet die Danubia Apotheke ver<wbr>&shy;einzelt einen
-        Zustell<wbr>&shy;dienst an).
-      </li>
-      <li>
-        Für <b>Kranke</b> dürfen <b>Krank<wbr>&shy;meldungen</b> derzeit 
+        <b>Rezepte</b>, <b>Krank<wbr>&shy;meldungen</b>,
+        <b>Befund<wbr>&shy;be<wbr>&shy;sprechungen</b> dürfen derzeit 
         <b>telefonisch zu den Ordinations<wbr>&shy;zeiten</b>
         durch<wbr>&shy;geführt werden
         unter der Telefon<wbr>&shy;nummer 
@@ -96,6 +101,11 @@
         persönliche Vor<wbr>&shy;stellung – telefonisch reicht aus.
       </li>
       <li>
+        Es dürfen <b>maximal 3 Personen gleichzeitig in die Ordination</b>
+        . Ein Patient bei der Ärztin, 1 Patient im Warteraum,
+        1 Patient bei der Anmeldung
+      </li>
+      <li>
         Notwendige Besuche in der Ordination sowie eventuelle
         Haus<wbr>&shy;besuche bei akuten Beschwerden finden 
         <b>aus<wbr>&shy;schließlich nach telefonischer
@@ -106,12 +116,14 @@
         </b>
         statt.
       </li>
+      <!--
       <li>
         Routine<wbr>&shy;tätig<wbr>&shy;keiten wie
         Vor<wbr>&shy;sorge<wbr>&shy;unter<wbr>&shy;suchungen,
         Kur<wbr>&shy;anträge, Atteste, Blut<wbr>&shy;abnahmen, Impfungen und
         dergleichen <b>werden derzeit nicht durch<wbr>&shy;geführt</b>.
       </li>
+      -->
       <li>
         Alles nur Panik? Leider nein. Die Sterblich<wbr>&shy;keits<wbr>&shy;rate 
         von Covid-19 liegt der<wbr>&shy;zeit deutlich höher als bei 
@@ -140,6 +152,7 @@
   Be<wbr>&shy;handlungs<wbr>&shy;konzepte zu entwickeln, welche genau zu deren
   Be<wbr>&shy;dürfnissen passen.
   </p>
+  <!--
   <div id="wichtig"><b>Wichtig: </b>
     <div>
       <ul>
@@ -150,6 +163,7 @@
       </ul>
     </div>
   </div>
+  -->
 </article>
 
 <div class="chart_spacer"></div>

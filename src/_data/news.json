@@ -1,17 +1,11 @@
 {
   "urlaub": [{
+  }],
+  "archiv": [{
     "zeit": {
       "von": "06.04.2020",
       "bis": "10.04.2020"
     },
-    "vertretung": {
-      "name": "Dr. Epp-Frühstück",
-      "tel": "01 / 292 14 70",
-      "fullnr": "0043012921470",
-      "adresse": "Kaingasse 22, 1210 Wien"
-    }
-  }],
-  "archiv": [{
     "vertretung": {
       "name": "Dr. Nesshyba",
       "tel": "01 / 294 19 70",
