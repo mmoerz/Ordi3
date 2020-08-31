@@ -29,51 +29,10 @@
     Chron. Erkrankungen: Herzinfarkt, Schlaganfall, Diabetes, Bluthochdruck, Krebserkrankungen<br>
     Frauen: Schwangerschaft? Stillzeit?<br>
   </p>
-
-  <!--
-  <form name="Vertretungspatient" method="post" action="mailto:marieta@ordimoerz.at" enctype="text/plain">
-    <input type="hidden" name="subject" 
-     value="Webseite ordimoerz Vertretungspatient">
-
-    Vorname:<br>
-    <input type="text" Name="Vorname" size="40"><br>
-    Nachname:<br>
-    <input type="text" Name="Nachname" size="40"><br>
-    Versicherungsnummer:<br>
-    <input type="text" Name="Versicherungsnr"><br>
-    Geburtsdatum:<br>
-    <input type="date" Name="Geburtsdatum"><br>
-    Versicherungsträger: SVA, BVA, ÖGK, VA, KFA<br>
-    <input type="text" Name="Versicherungstraeger"><br>
-    Wohnadresse:<br>
-    <textarea Name="Wohnadresse" rows="4"></textarea><br>
-    E-mail:<br>
-    <input type="email" Name="Email"><br>
-    Telefonnummer:<br>
-    <input type="text" Name="Telefonnr"><br>
-    Normalerweise prakt. Arzt:<br>
-    <textarea Name="Normalerweise prakt. Arzt" rows="2"></textarea><br>
-    Arbeitsgeber:<br> 
-    <textarea Name="Arbeitgeber" rows="4"></textarea><br>
-    Adresse des Arbeitsgebers:<br>
-    <textarea Name="Adresse Arbeitgeber" rows="4"></textarea><br>
-    Bekannte Allergie:<br>
-    <input type="text" Name="Bekannte Allergien"><br>
-    Dauermedikamente:<br>
-    <input type="text" Name="Dauermedikamente"><br>
-    Chron. Erkrankungen: wie zB. Herzinfarkt, Schlaganfall, Diabetes, Bluthochdruck,
-    Krebserkrankungen<br>
-    <input type="text" Name="chron. Erkrankungen"><br>
-    Frauen: Schwangerschaft? Stillzeit?<br>
-    <input type="text" Name="Frauen?"><br>
-    <span></span> 
-
-  <input type="submit" value="E-Mail ">
-  </form>
-  -->
   <p>
-    Die Krankmeldung kann Ihnen als pdf elektronisch zugesandt werden
-    und der Arbeitgeber kann unter dem ELDA Portal Ihre Krankmeldung einsehen.
+  Die Krankmeldung erfolgt ab 01.09.2020 nur bei Covid-19 Verdacht
+  elektronisch. Alle anderen Krankmeldungen erfolgen persönlich in der
+  Ordination. 
   </p>
   <p>
     Es werden <b>NUR</b> im Krankheitsfall Krankmeldungen ausgestellt. 

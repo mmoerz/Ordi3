@@ -30,7 +30,14 @@ let dirs = config.directories;
 let taskTarget = args.production ? dirs.destination : dirs.temporary;
 
 // Create a new browserSync instance
-let browserSync = browserSyncLib.create();
+//let browserSync = browserSyncLib.create();
+
+var browserSync = require('browser-sync').create();
+gulp.task('browser-sync', function() {
+  browserSync.init({
+    proxy: "0.0.0.0"
+  });
+});
 
 // This will grab all js in the `gulp` directory
 // in order to load all gulp tasks
