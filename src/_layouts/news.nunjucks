@@ -8,14 +8,16 @@
       <li>Halsweh</li>
       <li>Schnupfen</li>
       <li>Husten</li>
+      <li>Erbrechen</li>
+      <li>Durchfall</li>
       <li>Kurzatmigkeit</li>
       <li>plötzlicher Geruchs- oder Geschmacksinn Verlust</li>
     </ul>
-    bitten wir Sie aufgrund der sehr hohen Ansteckungs<wbr>&shy;gefahr die Ordination
+    bitten wir Sie auf<wbr>&shy;grund der sehr hohen An<wbr>&shy;steckungs<wbr>&shy;gefahr die Ordination
     <b>NICHT</b> auf<wbr>&shy;zu<wbr>&shy;suchen, sondern 
-    den <b>Ärzte<wbr>&shy;funk<wbr>&shy;dienst unter der
-    Telefon<wbr>&shy;nummer 1450</b> zu wenden und sich bei Fr. Dr. Mörz 
-    wegen Krankmeldung zu melden.
+    sofort die Telefon<wbr>&shy;nummer 1450</b> an<wbr>&shy;zu<wbr>&shy;rufen 
+    und sich bei Fr. Dr. Mörz 
+    wegen Krank<wbr>&shy;meldung zu melden.
   </p>
 
   {% if site.data.news.urlaub[0] %}
