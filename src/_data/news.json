@@ -1,5 +1,28 @@
 {
-  "urlaub": [
+  "urlaub": [{
+    "zeit": {
+      "von": "27.10.2020",
+      "bis": "29.10.2020"
+    },
+    "vertretung": {
+      "name": "Dr. Tomislav Hofer",
+      "tel": "01 / 290 10 81",
+      "fullnr": "004312901081",
+      "adresse": "Autokaderstraße 3-7/52/2, 1210 Wien"
+    }
+  },
+  {
+    "zeit": {
+      "von": "21.12.2020",
+      "bis": "30.12.2020"
+    },
+    "vertretung": {
+      "name": "Dr. Mohammad Kazemi",
+      "tel": "01 / 292 14 16",
+      "fullnr": "004312921416",
+      "adresse": "Scheydgasse 3/1/1, 1210 Wien"
+    }
+  }
   ],
   "archiv": [{
     "zeit": {
