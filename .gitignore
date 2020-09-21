@@ -4,5 +4,4 @@ build
 tmp
 .grunt
 .DS_Store
-upload.sh
 *.pem
