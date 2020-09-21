@@ -5,4 +5,4 @@ tmp
 .grunt
 .DS_Store
 upload.sh
-CA.pem
+*.pem
