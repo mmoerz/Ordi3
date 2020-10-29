@@ -20,50 +20,6 @@
     wegen Krank<wbr>&shy;meldung zu melden.
   </p>
 
-  <h2>Neues zur Influenza = "echte Grippe" Impfung</h2>
-  <p>
-    Ab Oktober läuft die Impfaktion, gemäß Bestellung werde ich 
-    <strong>100 Dosen</strong> des Grippeimpfstoffes bekommen. 
-    Diese 100 Impfungen werden 
-    <strong>dieses Jahr (2020) kostenlos NUR meinen Patienten</strong>
-    zur Verfügung gestellt (<strong>für ÖGK-Wien, SVS, KFA</strong>).
-    Für Patienten mit BVAEB ist dies noch nicht ausgehandelt.
-  </p>
-  <p>
-    Wir haben eine Warteliste, in die meine Patienten sich eintragen lassen
-    können (telefonisch/SMS/E-mail).
-  </p>
-  <p>
-    Nach Erhalt des Grippeimpfstoffes werden die Patienten in der Reihenfolge
-    der Anmeldung aufgerufen, um einen Impftermin zu vereinbaren.
-  </p>
-  <p>
-    Ob ich weitere Impfstoffe bekomme, falls alle 100 verabreicht wurden, kann
-    ich derzeit nicht sagen. Dies hängt von den Vereinbarungen bzw. vorhandenen
-    Beständen ab.
-  </p>
-  <h3>Nebenwirkungen des Grippe Impfstoffes</h3>
-  <ul>
-    <li>Eine lokale Impfreaktion (Schwellung,Rötung,Schmerz) 
-      meist für 2-3 Tage nach der Impfung.
-    </li>
-    <li>
-      Nach der Impfung können leichte Verkühlungsymptome (Kopfschmerz,
-      Schnupfen, Husten, Körpertemperaturanstieg, Gliederschmerz) 
-      auftauchen, dies ist ein Zeichen einer guten Immunreaktion.
-    </li>
-    <li>
-      Patienten mit Hühnereiweißallergie können bestimmte Impfstoffe nicht
-      erhalten! Da ich keinen Einfluss auf die Auswahl des Impfstoffes habe,
-      bitte bei der Terminisierung der Impfung dies ansprechen!
-    </li>
-    <li>
-      <strong>
-      Falls Sie sich krank fühlen oder Fieber haben, wird die Impfung NICHT
-      verabreicht!
-      </strong>
-    </li>
-  </ul> 
   <h2>Urlaub</h2>
   {% if site.data.news.urlaub[0] %}
     <p><b>Bitte beachten</b> Sie, dass die Ordination an den folgenden <b>Tagen geschlossen</b> ist: 
