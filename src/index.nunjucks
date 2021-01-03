@@ -71,6 +71,10 @@
 {% include "_layouts/home.nunjucks" %}
 {{onescreen_end()}}
 
+{{onescreen_begin(id="corona",sclass="ordi-pagepart",class="mx-auto")}}
+{% include "_layouts/corona.nunjucks" %}
+{{onescreen_end()}}
+
 {{onescreen_begin(id="krankmeldung",sclass="ordi-pagepart",class="mx-auto")}}
 {% include "_layouts/krankmeldung.nunjucks" %}
 {{onescreen_end()}}

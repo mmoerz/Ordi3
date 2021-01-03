@@ -1,4 +1,8 @@
-[{                                                                                                                                                    
+[{
+  "name": "Corona",
+  "cl": "corona",
+  "index": "0"
+},{
   "name": "Home",
   "cl": "willkommen",
   "active": "inactive",

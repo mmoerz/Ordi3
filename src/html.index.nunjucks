@@ -25,6 +25,12 @@
 {% include '_layouts/mainmenu.nunjucks' %}
 </div>
 
+<!-- Corona -->
+{% set _id = 'corona' %}
+{% include "_modules/onepage/opage_begin.nunjucks" %}
+  {% include "_layouts/corona.nunjucks" %}
+{{onescreen_end()}}
+
 <!-- Home -->
 {% set _id = 'willkommen' %}
 {% include "_modules/onepage/opage_begin.nunjucks" %}

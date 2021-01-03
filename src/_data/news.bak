@@ -1,4 +1,17 @@
 {
+  "urlaub": [{
+    "zeit": {
+      "von": "21.12.2020",
+      "bis": "30.12.2020"
+    },
+    "vertretung": {
+      "name": "Dr. Mohammad Kazemi",
+      "tel": "01 / 292 14 16",
+      "fullnr": "004312921416",
+      "adresse": "Scheydgasse 3/1/1, 1210 Wien"
+    }
+  }
+  ],
   "archiv": [{
     "zeit": {
       "von": "06.04.2020",
