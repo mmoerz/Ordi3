@@ -1,4 +1,17 @@
 {
+  "urlaub": [{
+    "zeit": {
+      "von": "1.2.2021",
+      "bis": "5.2.2021"
+    },
+    "vertretung": {
+      "name": "Dr. Hofer Tomislav",
+      "tel": "01 / 270 10 81",
+      "fullnr": "004312701081",
+      "adresse": "Autokaderstr. 3-7/52/2, 1210 Wien"
+    }
+  }
+  ],
   "archiv": [{
     "zeit": {
       "von": "06.04.2020",
@@ -57,6 +70,12 @@
       "tel": "01 / 290 90 15",
       "fullnr": "004312909015",
       "adresse": "Brünnerstr. 120, 1210 Wien"
+    },
+    "vertretung": {
+      "name": "Dr. Hofer Tomislav",
+      "tel": "01 / 270 10 81",
+      "fullnr": "004312701081",
+      "adresse": "Autokaderstr. 3-7/52/2, 1210 Wien"
     }
   }],
   "hinweis": [{

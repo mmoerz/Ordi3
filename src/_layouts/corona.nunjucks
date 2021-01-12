@@ -1,4 +1,23 @@
 <h1>Coronaimpfung</h1>
+
+  <h2>Corona Impfanmeldung</h2>
+  <p>Ab 18.01.2021 10:00</p>
+  <p>Vormerkung:</p>
+  <ol>
+    <li>telefonisch unter 1450</li>
+    <li>elektronisch unter 
+      <a href="www.impfservice.wien">
+        www.impfservice.wien
+      </a>
+    </li>
+  </ol>
+  <p>
+    <strong>Hierorts</strong> erfolgt <strong>KEINE IMPFUNG</strong>, falls
+    sich daran etwas ändert, wird dies per Aushang bzw. hier auf meiner
+    <a href="www.ordimoerz.at">Homepage</a> bekannt gegeben.
+  </p>
+
+  <h2>Fragen und Antworten</h2>
   <p>
     Aufgrund lauter gleicher Fragen, hier alles Wichtige schriftlich
   </p>
@@ -72,5 +91,6 @@
       .
     </li>
   </ul>
+
 
 <div class="chart_spacer"></div>
