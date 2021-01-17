@@ -19,6 +19,13 @@
     und sich bei Fr. Dr. Mörz 
     wegen Krank<wbr>&shy;meldung zu melden.
   </p>
+  <p>
+    Sie können sich jederzeit beim
+    <a href="http://www.141wien.at/schnupfen-check-box/">
+      Ärztefunkdienst zum Covid-19 Test anmelden
+    </a>
+    .
+  </p>
 
   <h2>Urlaub</h2>
   {% if site.data.news.urlaub[0] %}
