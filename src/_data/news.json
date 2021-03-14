@@ -1,14 +1,26 @@
 {
   "urlaub": [{
     "zeit": {
-      "von": "1.2.2021",
-      "bis": "5.2.2021"
+      "von": "10.5.2021",
+      "bis": "14.5.2021"
     },
     "vertretung": {
-      "name": "Dr. Hofer Tomislav",
-      "tel": "01 / 270 10 81",
-      "fullnr": "004312701081",
-      "adresse": "Autokaderstr. 3-7/52/2, 1210 Wien"
+      "name": "Dr. Epp-Frühstück",
+      "tel": "01 / 292 14 70",
+      "fullnr": "004312921470",
+      "adresse": "Kaingasse 22, 1210 Wien"
+    }
+  },
+  {
+    "zeit": {
+      "von": "3.8.2021",
+      "bis": "14.8.2021"
+    },
+    "vertretung": {
+      "name": "Dr. Fischlein",
+      "tel": "01 / 290 38 72",
+      "fullnr": "004312903872",
+      "adresse": "Vasovecg. 14 Center 21, 1210 Wien"
     }
   }
   ],
