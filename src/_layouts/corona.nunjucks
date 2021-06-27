@@ -11,26 +11,34 @@
   <div class="impftermine">
     <div class="row impftermine">
       <span class="col impfung1">
-        1.te Impfumg am Do, 08.07.2021 um 12:30
+        Erste Impfung
       </span>
       <span class="col impfung2">
-        2.te Impfung am Do, 29.07.2021 um 12:30
+        Zweite Impfung
       </span>
     </div>
     <div class="row impftermine">
       <span class="col impfung1">
-        1.te Impfumg am Fr, 09.07.2021 um 12:30
+        Do, 08.07.2021 um 12:30
       </span>
       <span class="col impfung2">
-        2.te Impfung am Do, 30.07.2021 um 12:30
+        Do, 29.07.2021 um 12:30
       </span>
     </div>
     <div class="row impftermine">
       <span class="col impfung1">
-        1.te Impfumg am Di, 13.07.2021 um 09:00
+        Fr, 09.07.2021 um 12:30
       </span>
       <span class="col impfung2">
-        2.te Impfung am Di, 17.08.2021 um 9:00
+        Do, 30.07.2021 um 12:30
+      </span>
+    </div>
+    <div class="row impftermine">
+      <span class="col impfung1">
+        Di, 13.07.2021 um 09:00
+      </span>
+      <span class="col impfung2">
+        Di, 17.08.2021 um 9:00
       </span>
     </div>
   </div>
@@ -157,7 +165,7 @@
   </p>
   <ul>
     <li>
-      <strong>Ja, wir empfehlen die Coronaimpfung jedem Pationenten</strong>
+      <strong>Ja, wir empfehlen die Coronaimpfung jedem Patienten</strong>
       und sind beide schon geimpft.
     </li>
     <li>
