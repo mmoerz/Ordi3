@@ -1,22 +1,205 @@
 <h1>Coronaimpfung</h1>
 
-  <h2>Corona Impfanmeldung</h2>
-  <p>Vormerkung:</p>
-  <ol>
-    <li>telefonisch unter 1450</li>
+<h2>Corona Impfanmeldung</h2>
+  <p>
+  Durch die Stadtregierung habe ich 36 Dosen vom Impfstoff Pfizer Biontech
+  (Comirnaty) zum Verimpfen erhalten.
+  </p>
+  <p>
+  Dafür gibt es folgende Impftermine in der <strong>ORDINATION</strong>:
+  </p>
+  <div class="impftermine">
+    <div class="row impftermine">
+      <span class="col impfung1">
+        1.te Impfumg am Do, 08.07.2021 um 12:30
+      </span>
+      <span class="col impfung2">
+        2.te Impfung am Do, 29.07.2021 um 12:30
+      </span>
+    </div>
+    <div class="row impftermine">
+      <span class="col impfung1">
+        1.te Impfumg am Fr, 09.07.2021 um 12:30
+      </span>
+      <span class="col impfung2">
+        2.te Impfung am Do, 30.07.2021 um 12:30
+      </span>
+    </div>
+    <div class="row impftermine">
+      <span class="col impfung1">
+        1.te Impfumg am Di, 13.07.2021 um 09:00
+      </span>
+      <span class="col impfung2">
+        2.te Impfung am Di, 17.08.2021 um 9:00
+      </span>
+    </div>
+  </div>
+  <p>
+  Für die Impfungen gibt es eine fixe Uhrzeit und einen fixen 2.ten Impftermin, der nicht verschiebbar ist.
+  Ob ich die erforderlichen 36 Impfstoffe für den 2.ten Termin bekomme, 
+  weiß ich nicht, da dies von der Stadt Wien organisiert wird.
+  Angeblich kommen Sie in der Woche vom 26.07.2021.
+  </p>
+  <p>
+  Falls sich nicht mindestens 7 Patienten an einem Impftermin finden sollten, kann die Impfung nicht durchgeführt werden 
+  (7.ter Patient ist Reserve, da die 7.te Dosis nicht garantieren kann).
+  </p>
+  <p>
+  Falls es bei mir nicht zur 2.ten Impfung kommen sollte, 
+  können sich die Patienten nach Vorgabe der Stadt Wien im 
+  Austria Center zur Impfung anmelden.
+  </p>
+  <b>Eine Anmeldung zur Impfung ist verbindlich!</b>
+  VOR dem Impftermin ist eine Anmeldung in der Ordination bei Fr. Dani,
+  meiner Sekretärin, vorgesehen. Dabei bekommen Sie Ihren genauen
+  Impftermin mit Zeitangabe und einen Ausdruck vom 
+  <a href="https://www.sozialministerium.at/dam/jcr:e11b58c1-71d3-47d4-b059-5960bfe39ef5/Schutzimpfung_Covid-19-Formular_mRNA-Impfstoffe.pdf">
+    Einverständnisbogen
+  </a>
+  , der am ersten Impftag und am zweiten Impftag bereits ausgefüllt und 
+  unterschrieben mitgebracht werden muss.
+  Zusätzlich wird ein telefonischer Besprechungstermin für die
+  Aufklärung VOR dem Impftermin vereinbart.
+  Das Vorzeigen des vorhandenen Impfpasses bei der Anmeldung ist Pflicht,
+  da nur der internationale, gelbe Impfpass zum Impfeintrag gedacht ist.
+  Wenn Sie einen derartigen nicht haben, bekommen Sie diesen am Schalter.
+  </p>
+  <p>
+  Zusätzlich wird ein telefonischer Besprechungstermin ausgemacht, 
+  um die Aufklärung VOR dem Impftermin durchzuführen.
+  <p>
+  Durch die Stadtregierung habe ich 20 Dosen vom Impfstoff Astra zeneca
+  (Vaxzervia) zum Verimpfen erhalten.
+  Da pro Flasche 10 Impfungen (Dosen) möglich sind 
+  (mit speziellen Nadeln sogar bis zu zwei Dosen mehr), 
+  werde ich die Impfung am 22.ten Juni 2021
+  durchführen.
+
+  Für die Durchführung eines Impftermins müssen sich
+  mindestens 10 Patienten melden, da unter 10 Patienten die Impfung
+  nicht durchgeführt werden kann.
+  Ab 10 Patienten werden auch Wartelistenpatienten geführt, falls jemand
+  ausfällt.
+  </p>
+  <p>
+  Ob 10, 11 oder 12 Dosen am Impftag verfügbar sind, kann ich erst beim
+  Aufziehen sehen. Falls es sich nicht ausgeht, werden die nächsten zwei
+  Wartelistenpatienten telefonisch informiert (NUR die Wartelistenpatienten
+  bekommen gratis einen ELGA Impfpass Auszug, da wir nur 10 Etiketten
+  pro Flasche bekommen haben für den internationalen Impfpass und ich die
+  Chargennummer nur handschriftlich eintragen kann).
+  </p>
+  <p>
+  Es gibt eine fixe Uhrzeit und einen fixen 2. Impftermin in 12 Wochen
+  (24.,25. und 27. August 2021), dieser ist nicht verschiebbar und
+  ob ich die erforderlichen 30 Impfstoffe bekommen, weiß ich nicht,
+  da dies von der Stadt Wien organisiert wird.
+  Falls es nicht zur 2.ten Impfung kommen sollte, können sich die
+  Patienten gemäß der Vorgabe der Stadt Wien im Austria Center zur Impfung
+  anmelden.
+  </p>
+  <p>
+  <b>Eine Anmeldung zur Impfung ist verbindlich!</b>
+  VOR dem Impftermin ist eine Anmeldung in der Ordination bei Fr. Dani,
+  meiner Sekretärin, vorgesehen. Dabei bekommen Sie Ihren genauen
+  Impftermin mit Zeitangabe und einen Ausdruck vom Einverständnisbogen,
+  der am ersten Impftag und am zweiten Impftag bereits ausgefüllt und 
+  unterschrieben mitgebracht werden muss.
+  Zusätzlich wird ein telefonischer Besprechungstermin für die
+  Aufklärung VOR dem Impftermin vereinbart.
+  Das Vorzeigen des vorhandenen Impfpasses bei der Anmeldung ist Pflicht,
+  da nur der internationale, gelbe Impfpass zum Impfeintrag gedacht ist.
+  Wenn Sie einen derartigen nicht haben, bekommen Sie diesen am Schalter.
+  </p>
+  <p>
+  Die Impfung erfolgt außerhalb der Ordinationszeit, wird bei offenen
+  Fenstern durchgeführt, ziehen sie Kleidung an, bei der die Schulter
+  vollständig sichtbar ist OHNE sich auszuziehen
+  (z.b. kurzärmeliges T -Shirt).
+  Es werden KEINE Befundbesprechungen, weitere Untersuchungen etc.
+  möglich sein, da wir uns voll und ganz auf die Impfung, Administration,
+  Impfeintrag und Nachbeobachtung  der Impflinge konzentrieren müssen.
+  </p>
+  <p>
+  Für den Impftermin ist wichtig:
+  <ul>
+    <li>FFP2 Maske</li>
+    <li>Absolviertes telefonisches Aufklärungsgespräch</li>
+    <li>Einverständnisbogen</li>
+    <li>Impfpass</li>
+    <li>adequate Kleidung - Schulter vollständig sichtbar</li>
+  </ul>
+  </p>
+  <p>
+  Ein Nachbeobachtungszeitraum von ca. 15 min (bei Allergikern 30min) nach der
+  Impfung ist in der Ordination vorgesehen. Dafür gibt Sitzgelegenheiten 
+  für Patienten - Begleitpersonen müssen außerhalb der Ordination warten.
+  </p>
+  <p>
+  Eine normale Impfreaktion/Nebenwirkung, die nach AZ auftreten KÖNNEN
+  sind: Müdigkeit, Fieber, Schüttelfrost, Kopfschmerzen, Gliederschmerzen,
+  Kältegefühl , Übelkeit, Druckempfindlichkeit, Schwellung, Rötung am
+  Einstich, Erbrechen, Durchfall, Schwindelgefühl, verminderter Appetit,
+  übermäßiges Schwitzen, juckende Haut, Hautausschlag für 3-5 Tage 
+  nach der Impfung, Schlaflosigkeit, Unwohlsein, vergrößerte Lymphknoten,
+  Armschmerzen, sehr selten auch schwere allergische Reaktionen.
+  </p>
+  <p>
+  Machen Sie sich keine Sorgen, falls sie keiner der obig genannten
+  Reaktionen haben!
+  </p>
+  <p>
+  Ob, wie stark und wie lange diese Immunantwort auf die Impfung auftreten
+  ist bei jedem Impfling anders.
+  </p>
+  <p>
+  Weitere Informationen entnehmen Sie bitte dem
+  <a href="https://www.basg.gv.at/fileadmin/redakteure/03_amtlicheNachrichten/Kurzmeldungen/Gebrauchsinformation_Comirnaty.pdf">
+    Beipackzettel</a> des Impfstoffs.
+  </p>
+  <p>
+  Falls Beschwerden weiterhin andauern, können sie mich telefonisch
+  kontaktieren am Ordinationshandy zu den Ordinationszeiten.
+  </p>
+  <p>
+  Jugendliche ab 12 Jahren können mit diesem Impfstoff geimpft werden,
+  ich impfe Jugendliche ab dem 15. Lebensjahr in der Ordination.
+  </p>
+  <p>
+  Schwangere Patienten werde ich in der Ordination NICHT impfen.
+  </p>
+  <p>
+  Falls Beschwerden weiterhin andauern, können sie mich telefonisch
+  kontaktieren am Ordinationshandy zu den Ordinationszeiten.
+  </p>
+  <p>
+  Hier finden Sie Informationen zu
+  <a href="https://www.basg.gv.at/fileadmin/redakteure/06_Gesundheitsberufe/DHPC/2021/210414_Vaxzevria.pdf">
+  Astra zeneca und Thrombose Risiko
+  </a>
+  des Bundesamts für Sicherheit im Gesundheitswesen.
+  </p>
+  <p>
+  Falls sie eine COVID Erkrankung hinter sich haben, wird laut Impfgremium empfohlen, frühestens 6 Monate nach der Erkrankung EINMALIG zu boostern (=Auffrischungsimpfung).
+  Ein Abstand von zumindest 2 Wochen, besser 4 Wochen zu anderen Impfungen wird empfohlen.
+  </p>
+  <p>
+    Ich habe keinen anderen Impfstoff derzeit zur Auswahl, wenn Sie nicht
+    mit Astra zeneca Impfstoff geimpft werden wollen, so melden sie sich:
+  </p>
+  <ul>
+    <li>telefonisch unter 1450 oder </li>
     <li>elektronisch unter 
       <a href="https://www.impfservice.wien">
         www.impfservice.wien
       </a>
     </li>
-  </ol>
+  </ul>
   <p>
-    <strong>Hierorts</strong> erfolgt <strong>KEINE IMPFUNG</strong>, falls
-    sich daran etwas ändert, wird dies per Aushang bzw. hier auf meiner
-    <a href="http://www.ordimoerz.at">Homepage</a> bekannt gegeben.
-  </p>
-  <p>
-    Bitte melden Sie Impfreaktionen dem <a href="https://nebenwirkung.basg.gv.at">Bundesministerium für Gesundheit</a>.
+  Bitte melden Sie nicht im Beipackzettel enthaltene Impfreaktionen dem
+  <a href="https://nebenwirkung.basg.gv.at">
+    Bundesministerium für Gesundheit
+  </a>.
   </p>
  
   <h2>Fragen und Antworten</h2>
@@ -79,6 +262,15 @@
       .
     </li>
   </ul>
-
-
+  <p>
+  Ein Auszug aus dem elektronischen Impfpass ist eine Privatleistung
+  ( 15€ ), sie können sich über die ELGA Serviceline
+  050 124 4411 informieren, wie sie gratis zu diesem Auszug kommen.
+  </p>
+  <p>
+  Falls ein falscher Eintrag (anderer Impfstoff, falsches Datum,
+  fehlender Eintrag, doppelter Eintrag) im elektronischen Impfpass
+  steht ? für Korrekturen bitte an folgen email Adresse wenden ?
+  clearing.cov19.impfung@ma15.gv.at
+  </p>
 <div class="chart_spacer"></div>

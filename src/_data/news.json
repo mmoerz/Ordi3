@@ -1,20 +1,8 @@
 {
   "urlaub": [{
     "zeit": {
-      "von": "10.5.2021",
-      "bis": "14.5.2021"
-    },
-    "vertretung": {
-      "name": "Dr. Epp-Frühstück",
-      "tel": "01 / 292 14 70",
-      "fullnr": "004312921470",
-      "adresse": "Kaingasse 22, 1210 Wien"
-    }
-  },
-  {
-    "zeit": {
-      "von": "3.8.2021",
-      "bis": "14.8.2021"
+      "von": "2.8.2021",
+      "bis": "13.8.2021"
     },
     "vertretung": {
       "name": "Dr. Fischlein",
