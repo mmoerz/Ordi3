@@ -1,117 +1,110 @@
 <h1>Coronaimpfung</h1>
 
 <h2>Corona Impfanmeldung</h2>
-  <p>
-  Durch die Stadtregierung habe ich 36 Dosen vom Impf<wbr>&shy;stoff Pfizer Biontech
-  (Comirnaty) zum Ver<wbr>&shy;impfen er<wbr>&shy;halten.
-  </p>
-  <p>
-  Dafür gibt es folgende Impftermine in der <strong>ORDINATION</strong>:
-  </p>
-  <div class="impftermine">
-    <div class="row impftermine">
-      <span class="col impfung1">
-        Erste Impfung
-      </span>
-      <span class="col impfung2">
-        Zweite Impfung
-      </span>
-    </div>
-    <div class="row impftermine">
-      <span class="col impfung1">
-        Do, 08.07.2021 um 12:30
-      </span>
-      <span class="col impfung2">
-        Do, 29.07.2021 um 12:30
-      </span>
-    </div>
-    <div class="row impftermine">
-      <span class="col impfung1">
-        Fr, 09.07.2021 um 12:30
-      </span>
-      <span class="col impfung2">
-        Fr, 30.07.2021 um 12:30
-      </span>
-    </div>
-    <div class="row impftermine">
-      <span class="col impfung1">
-        Di, 13.07.2021 um 09:00
-      </span>
-      <span class="col impfung2">
-        Di, 17.08.2021 um 9:00
-      </span>
-    </div>
-  </div>
-  <p>
-  Für die Impfungen gibt es eine fixe Uhrzeit und einen fixen zweiten 
-  Impf<wbr>&shy;termin, 
-  der nicht ver<wbr>&shy;schieb<wbr>&shy;bar ist.
-  Ob ich die er<wbr>&shy;forder<wbr>&shy;lichen 36 Impfstoffe für den zweiten
-  Termin be<wbr>&shy;kom<wbr>&shy;me, 
-  weiß ich nicht, da dies von der Stadt Wien
-  or<wbr>&shy;ga<wbr>&shy;ni<wbr>&shy;siert wird.
-  An<wbr>&shy;geb<wbr>&shy;lich kom<wbr>&shy;men Sie in der Woche vom 26.07.2021.
-  </p>
-  <p>
-  Falls sich nicht mindestens sieben (7) Patienten an einem Impf<wbr>&shy;termin
-  finden sol<wbr>&shy;lten, kann die Impfung nicht durch<wbr>&shy;geführt werden 
-  (siebenter Patient ist Reserve, da die siebente Dosis nicht garantiert werden 
-  kann).
-  </p>
-  <p>
-  Falls es bei mir nicht zur zweiten Impfung kommen sollte, 
-  kön<wbr>&shy;nen sich die Pa<wbr>&shy;tien<wbr>&shy;ten nach
-  Vor<wbr>&shy;gabe der Stadt Wien im 
-  Austria Center zur Im<wbr>&shy;pfung an<wbr>&shy;melden.
-  </p>
-  <b>Eine Anmeldung zur Impfung ist verbindlich!</b>
-  VOR dem Impftermin ist eine Anmeldung in der Ordination bei Fr. Dani,
-  meiner Sekretärin, vorgesehen. Dabei bekommen Sie Ihren genauen
-  Impftermin mit Zeitangabe und einen Aus<wbr>&shy;druck vom 
-  <a href="https://www.sozialministerium.at/dam/jcr:e11b58c1-71d3-47d4-b059-5960bfe39ef5/Schutzimpfung_Covid-19-Formular_mRNA-Impfstoffe.pdf">
-    Einverständnisbogen
-  </a>
-  , der am ersten Impf<wbr>&shy;tag und am zweiten Impf<wbr>&shy;tag
-  bereits aus<wbr>&shy;gefüllt und 
-  unter<wbr>&shy;schrieben mit<wbr>&shy;gebracht werden muss.
-  <p>
-  Zusätzlich wird ein telefonischer Besprechungstermin für die
-  Aufklärung VOR dem Impf<wbr>&shy;termin ver<wbr>&shy;einbart.
-  </p>
-  Das Vorzeigen des vorhandenen Impfpasses bei der An<wbr>&shy;meldung
-  ist Pflicht,
-  da nur der internationale, gelbe Impf<wbr>&shy;pass zum Impf<wbr>&shy;eintrag
-  ge<wbr>&shy;dacht ist.
-  Wenn Sie einen der<wbr>&shy;artig<wbr>&shy;en nicht haben, 
-  be<wbr>&shy;kom<wbr>&shy;men Sie diesen am Schalter.
-  </p>
-  Die Impfung erfolgt außerhalb der Ordinationszeit, wird bei offenen
-  Fenstern durch<wbr>&shy;geführt, ziehen sie Kleidung an,
-  bei der die Schul<wbr>&shy;ter
-  voll<wbr>&shy;ständig sicht<wbr>&shy;bar ist OHNE sich 
-  aus<wbr>&shy;zu<wbr>&shy;ziehen
-  (z.b. kurz<wbr>&shy;är<wbr>&shy;me<wbr>&shy;liges T -Shirt).
-  Es werden KEINE Befund<wbr>&shy;besprechungen, weitere 
-  Un<wbr>&shy;ter<wbr>&shy;such<wbr>&shy;ungen etc.
-  möglich sein, da wir uns voll und ganz auf die Impfung,
-  Ad<wbr>&shy;ministration,
-  Impf<wbr>&shy;eintrag und Nach<wbr>&shy;beobachtung 
-  der Impf<wbr>&shy;linge kon<wbr>&shy;zen<wbr>&shy;trieren müssen.
-  </p>
-  <p>
-  Für den Impftermin ist wichtig:
+<p>
+Es wurde eine weitere Teil<wbr>&shy;impfung für COVID-19 von Seiten BMSGPK
+wie folgt empfohlen:
+<ol class="numbered">
+  <li class="numbered">Folgenden Risikogruppen eine weitere Dosis
+    (impf<wbr>&shy;stoff<wbr>&shy;ab<wbr>&shy;hängig 2.te oder 3.te Dosis)
+    in einem Zeit<wbr>&shy;raum
+    von <strong>
+    frühestens 6 bis spätestens 9 Monaten nach Ab<wbr>&shy;schluss 
+    der voll<wbr>&shy;ständig<wbr>&shy;en Immunisierung
+    zu ver<wbr>&shy;abreichen
+    </strong>
+    (off label):
+    <ul>
+      <li>
+        Personen im Alter von &gt;= 65 Jahren
+      </li>
+      <li>
+        Personen (ab 12 Jahren unabhängig vom Alter) 
+        mit Vorerkrankungen und besonders hohem Risiko
+        und hohem Risiko (Immunsupprimmierte)
+      </li>
+      <li>
+        Personen, welche 1 Dosis COVID-19-Vaccine Janssen erhalten haben
+      </li>
+      <li>
+        Personen, welche 2 Dosen Vaxzevria erhalten haben
+      </li>
+    </ul>
+  </li>
+  <li class="numbered">
+    Allen <strong>Personen über 18 Jahren nach 9-12 Monaten</strong>
+    eine weitere Imp<wbr>&shy;fung zu ver<wbr>&shy;ab<wbr>&shy;reichen
+    (off label).
+    Dies gilt auch für folgende Personen<wbr>&shy;gruppen:
+    <ul>
+      <li>
+        Personal in Alten-, Pflege- und 
+        Senioren<wbr>&shy;wohn<wbr>&shy;heimen,
+      </li>
+      <li>
+        Personal im Gesund<wbr>&shy;heits<wbr>&shy;bereich, 
+        in der mobilen Pflege, Be<wbr>&shy;treu<wbr>&shy;ung,
+        Kranken<wbr>&shy;pflege und 24-<wbr>&shy;h-<wbr>&shy;Pflege
+        sowie pflegende An<wbr>&shy;ge<wbr>&shy;hörige,
+      </li>
+      <li>
+        Personal in pädagogischen Ein<wbr>&shy;richtung<wbr>&shy;en 
+        (Kinder<wbr>&shy;be<wbr>&shy;treuung, Schule, Universität, etc.)
+      </li>
+    </ul>
+  </li>
+</ol>
+<p>
+Grundsätzlich kann nach 2x Moderna Grundimmunisierung mit Pfizer 
+aufgefrischt werden.
+</p>
+<p>
+Auch meine Patienten, die eine Grundimmunisierung bzw. 2.Stich 
+mit Pfizer wünschen, können geimpft werden.
+</p>
+<p>
+  <strong>
+    "Die Anwendung von COVID-19-Impfstoffen als 3. 
+    Dosis ist derzeit nicht zugelassen. 
+    Die Datenlage ist noch begrenzt und über Art und Häufigkeit 
+    von Nebenwirkungen ist wenig bekannt."
+  </strong>
+</p>
+<p>
+  <strong>
+    In der Ordination wird NUR mit BioNTech/Pfizer = Comirnaty geimpft!
+  </strong>
+</p>
+<p>
+Impftermine gibt es bei der Sekretärin Fr. Dani unter 01/290 02 87
+<b>Eine Anmeldung zur Impfung ist verbindlich!</b>
+</p>
+<p>
+  <strong>Für den Impftermin ist zwingend notwendig:</strong>
   <ul>
+    <li>Unterschriebener Einverständnisbogen</li>
+    <li>E-card</li>
     <li>FFP2 Maske</li>
-    <li>Absolviertes telefonisches Aufklärungsgespräch</li>
-    <li>Einverständnisbogen</li>
     <li>Impfpass</li>
     <li>adequate Kleidung - Schulter vollständig sichtbar</li>
+    <li>15min Beobachtung nach der Impfung</li>
+    <li>Angehörige müssen außerhalb der Ordination warten</li>
+    <li>
+      Bei Nichterscheinen muss der Impfstoff verworfen werden,
+      also bitte 24h vorher Bescheid geben bzw. E-mail/SMS an 
+      Fr. Dr. Mörz schicken
+    </li>
+    <li>
+      Am Tag der Impfung erfolgen KEINE 
+      Rezepte/Besprechungen/Untersuchungen!!! 
+      das entspricht den Regeln der Krankenträger,
+      wir müssen uns daran halten 
+    </li>
   </ul>
   </p>
   <p>
-  Ein Nachbeobachtungszeitraum von ca. 15 min (bei Allergikern 30min) nach der
-  Impfung ist in der Ordination vorgesehen. Dafür gibt Sitzgelegenheiten 
-  für Patienten - Begleitpersonen müssen außerhalb der Ordination warten.
+    <a href="https://rdir.inxmail.com/aekwien/d?o000hosq00eswc00d0000000000000000fxc3bjgz4y3bmvic6fx3fuleqi2">Hier</a>
+    können Sie den Einverständnisbogen zum Ausfüllen herunterladen.
   </p>
   <p>
   Eine normale Impfreaktion/Nebenwirkung, die nach AZ auftreten KÖNNEN
@@ -123,7 +116,7 @@
   Armschmerzen, sehr selten auch schwere allergische Reaktionen.
   </p>
   <p>
-  Machen Sie sich keine Sorgen, falls sie keiner der obig genannten
+  Machen Sie sich keine Sorgen, falls sie keine der obig genannten
   Reaktionen haben!
   </p>
   <p>
