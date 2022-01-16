@@ -38,6 +38,7 @@ foreach $line (<INFO>)  {
     } elsif ($line =~ m%\s*<style amp-custom>\s*%)
     {
       print OUTHTML $line;
+      
       open(CSS, "$dirname/$stylesheet");
       foreach $cssline (<CSS>) {
         print OUTHTML $cssline;

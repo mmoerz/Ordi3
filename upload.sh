@@ -30,10 +30,10 @@ mv tmp/index.html.ampfixed tmp/index.html
 mv tmp/impressum.html.ampfixed tmp/impressum.html
 
 lftp <<EOF
+set ssl:ca-file /home/natoka/src/yo/CA.pem
 open $HOST
 user $USER $PASS
 lcd $SOURCEFOLDER
-set ssl:ca-file /home/natoka/src/yo/CA.pem
 mirror --reverse --verbose $SOURCEFOLDER $TARGETFOLDER
 bye
 EOF
@@ -47,17 +47,6 @@ verify authenticity and move then to CA.pem
 
 EOF
 
-#Download ssl certificate:
-#openssl s_client -connect d26013.ispservices.at:21 -showcerts -starttls ftp 2>/dev/null </dev/null \
-#  | sed -n '/-----BEGIN/,/-----END/p' > /.lftp/ispservices.at.crts
-#
-#Download any issuer certificates to:
-#CA.pem
-
-#verify:
-#openssl verify -CAfile CA.pem /.lftp/ispservices.at.crts
-
-#EOF
 fi
 #openssl s_client -showcerts -connect $HOST:21 -starttls ftp
 #echo openssl s_client -showcerts -connect $HOST:21 -starttls ftp
