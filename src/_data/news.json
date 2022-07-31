@@ -1,16 +1,18 @@
 {
-  "urlaub": [{
+  "urlaub": [
+    {
     "zeit": {
-      "von": "13.6.2022",
-      "bis": "17.6.2022"
+      "von": "22.08.2020",
+      "bis": "26.08.2020"
     },
     "vertretung": {
-      "name": "Dr. Tomislav Hofer",
-      "tel": "01 / 270 10 81",
-      "fullnr": "004312701081",
-      "adresse": "17, Johann-Knoll-Gasse 52/2, 1210 Wien"
+      "name": "Dr. Aniela Markot",
+      "tel": "01 / 292 85 85",
+      "fullnr": "004312928585",
+      "adresse": "Lamarckgasse 13, 1210 Wien"
     }
-  }
+    }
+  
   ],
   "archiv": [{
     "zeit": {
@@ -78,10 +80,10 @@
       "adresse": "Brünnerstr. 120, 1210 Wien"
     },
     "vertretung": {
-      "name": "Dr. Hofer Tomislav",
-      "tel": "01 / 270 10 81",
-      "fullnr": "004312701081",
-      "adresse": "Autokaderstr. 3-7/52/2, 1210 Wien"
+      "name": "Dr. Aniela Markot",
+      "tel": "01 / 292 85 85",
+      "fullnr": "004312928585",
+      "adresse": "Lamarckgasse 13, 1210 Wien"
     }
   }],
   "hinweis": [{
