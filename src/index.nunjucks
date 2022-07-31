@@ -112,7 +112,7 @@
 {{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
-<code class="version">v3.02.2</code>
+<code class="version">v4.01.0</code>
 
 {#
 <div id="target-element-right">
