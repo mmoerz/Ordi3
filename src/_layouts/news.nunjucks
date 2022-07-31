@@ -1,29 +1,4 @@
 <h1>Aktuelles</h1>
-  <p>
-    Aufgrund der aktuellen Ereignisse bezüglich Corona Virus möchten wir Sie
-    über Verhaltens<wbr>&shy;regeln bei Verdachts<wbr>&shy;fällen informieren.
-    Sollten Sie folgende Symptome, vor allem in Kombination, aufweisen:
-    <ul>
-      <li>Fieber (über 38° Celsius)</li>
-      <li>Halsweh</li>
-      <li>Schnupfen</li>
-      <li>Husten</li>
-      <li>Erbrechen</li>
-      <li>Durchfall</li>
-      <li>Kurzatmigkeit</li>
-      <li>plötzlicher Geruchs- oder Geschmacksinn Verlust</li>
-    </ul>
-    bitten wir Sie auf<wbr>&shy;grund der sehr hohen An<wbr>&shy;steckungs<wbr>&shy;gefahr die Ordination
-    <b>NICHT</b> auf<wbr>&shy;zu<wbr>&shy;suchen, sondern 
-    sich sofort bei der 
-    <a href="http://www.141wien.at/schnupfen-check-box/">
-      Schnupfencheckbox zum Covid-19 Test anmelden
-    </a>
-    bzw. die Telefon<wbr>&shy;nummer 1450</b> an<wbr>&shy;zu<wbr>&shy;rufen 
-    und sich bei Fr. Dr. Mörz 
-    wegen Krank<wbr>&shy;meldung zu melden.
-  </p>
-
   <h2>Urlaub</h2>
   {% if site.data.news.urlaub[0] %}
     <p><b>Bitte beachten</b> Sie, dass die Ordination an den folgenden <b>Tagen geschlossen</b> ist: 
