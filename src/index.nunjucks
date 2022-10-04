@@ -21,8 +21,12 @@
   {% else %}
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <!-- archivo-narrow-regular - latin  found in css -->
+  <!-- Source-Sans-pro found in css -->
+  <!--  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  -->
   <style amp-custom>
     <!-- replace -->
   </style>
@@ -112,7 +116,7 @@
 {{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
-<code class="version">v4.01.0</code>
+<code class="version">v4.02.0</code>
 
 {#
 <div id="target-element-right">
