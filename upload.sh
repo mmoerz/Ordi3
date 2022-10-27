@@ -29,6 +29,9 @@ rm tmp/html.index.html
 mv tmp/index.html.ampfixed tmp/index.html
 mv tmp/impressum.html.ampfixed tmp/impressum.html
 
+echo "not uploading, but exiting"
+exit
+
 lftp <<EOF
 set ssl:ca-file /home/natoka/src/yo/CA.pem
 open $HOST
