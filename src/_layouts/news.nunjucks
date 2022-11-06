@@ -1,4 +1,12 @@
 <h1>Aktuelles</h1>
+  <h2>Gratis Grippeimpfung</h2>
+    Eine Anmeldung ist telefonisch, solange der Vorrat an 
+    Impfungen reicht, bei Fr. Dani 
+    unter 
+    <a class="telnr" href="tel:{{ site.data.misc.tel.fullnr }}">
+        {{ site.data.misc.tel.nr }}
+    </a>
+    möglich.
   <h2>Urlaub</h2>
   {% if site.data.news.urlaub[0] %}
     <p><b>Bitte beachten</b> Sie, dass die Ordination an den folgenden <b>Tagen geschlossen</b> ist: 
