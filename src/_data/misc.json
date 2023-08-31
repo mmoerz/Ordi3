@@ -1,5 +1,5 @@
 {
-  "openremark": "Annahmeschluss <nobr>30 Min.</nobr> vor Ordinationsende",
+  "openremark": "Annahmeschluss <nobr>60 Min.</nobr> vor Ordinationsende",
 
   "location": {
     "street": "Rußbergstraße 94/5/1",
@@ -16,5 +16,16 @@
     "name": "Fax",
     "nr": "01 290 02 87 89",
     "fullnr": "+4301290028789"
+  },
+
+  "mob": {
+    "name": "Handy",
+    "nr": "0664 88 86 88 53",
+    "fullnr": "066488868853"
+  },
+  
+  "email": {
+    "name": "E-mail",
+    "addr": "marieta@ordimoerz.at"
   }
 }

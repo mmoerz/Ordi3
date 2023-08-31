@@ -1,0 +1,6 @@
+<div id="telephone">
+<div id="email">
+  <h2>{{site.data.misc.email.name}}</h2>
+</div>
+</div>
+  <a id="myemail" href="mailto:{{site.data.misc.email.addr}}">{{site.data.misc.email.addr}}</a>

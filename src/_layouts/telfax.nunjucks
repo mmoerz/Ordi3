@@ -12,4 +12,13 @@
     <h2>{{ site.data.misc.fax.name }}</h2>
     <p>{{ site.data.misc.fax.nr }}</p>
   </div>
+  <div class="telnr2">
+    <h2>{{ site.data.misc.mob.name }}</h2>
+    <p class="telnr2 lg-hide">
+      <a class="telnr2" href="tel:{{ site.data.misc.mob.fullnr }}">
+        {{ site.data.misc.mob.nr }}
+      </a>
+    </p>
+    <p class="xs-hide">{{ site.data.misc.mob.nr }}</p>
+  </div>
 </div>
