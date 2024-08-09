@@ -2,20 +2,8 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "02.01.2024",
-      "bis": "03.01.2024"
-    },
-    "vertretung": {
-      "name": "Dr. Erich Doblinger",
-      "tel": "01 / 270 75 75",
-      "fullnr": "004312707575",
-      "adresse": "Schwaigergasse 35/17, 1210 Wien"
-    }
-    },
-    {
-    "zeit": {
-      "von": "29.01.2024",
-      "bis": "02.02.2024"
+      "von": "22.07.2024",
+      "bis": "02.08.2024"
     },
     "vertretung": {
       "name": "Dr. Wiederkehr Veres Brigitte",
@@ -26,25 +14,14 @@
     },
     {
     "zeit": {
-      "von": "9.2.2024"
+      "von": "26.08.2024",
+      "bis": "30.08.2024"
     },
     "vertretung": {
       "name": "Dr. Wiederkehr Veres Brigitte",
       "tel": "01 / 278 72 78",
       "fullnr": "004312787278",
       "adresse": "Pilzgasse 32-34/6/1, 1210 Wien"
-    }
-    },
-    {
-    "zeit": {
-      "von": "21.05.2024",
-      "bis": "24.05.2024"
-    },
-    "vertretung": {
-      "name": "Dr. Tomislav Hofer",
-      "tel": "01 / 270 10 81",
-      "fullnr": "004312701081",
-      "adresse": "17, Johann-Knoll-Gasse 52/2, 1210 Wien"
     }
     }
   ],
