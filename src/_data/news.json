@@ -2,26 +2,26 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "22.07.2024",
-      "bis": "02.08.2024"
+      "von": "28.10.2024",
+      "bis": "31.10.2024"
     },
     "vertretung": {
-      "name": "Dr. Wiederkehr Veres Brigitte",
-      "tel": "01 / 278 72 78",
-      "fullnr": "004312787278",
-      "adresse": "Pilzgasse 32-34/6/1, 1210 Wien"
+      "name": "Dr. Andrea Bori",
+      "tel": "01 / 259 61 91",
+      "fullnr": "004312596191",
+      "adresse": "Oswald-Redlich-Straße 36, 1210 Wien"
     }
     },
     {
     "zeit": {
-      "von": "26.08.2024",
-      "bis": "30.08.2024"
+      "von": "23.12.2024",
+      "bis": "3.1.2025"
     },
     "vertretung": {
-      "name": "Dr. Wiederkehr Veres Brigitte",
-      "tel": "01 / 278 72 78",
-      "fullnr": "004312787278",
-      "adresse": "Pilzgasse 32-34/6/1, 1210 Wien"
+      "name": "Dr. Andrea Bori",
+      "tel": "01 / 259 61 91",
+      "fullnr": "004312596191",
+      "adresse": "Oswald-Redlich-Straße 36, 1210 Wien"
     }
     }
   ],
