@@ -3,9 +3,9 @@
     <ul>
       {% for item in site.data.services.liste %}
             <li>
-              <div class="year">{{ item.title }}</div>
+              <div class="year">{{ item.title | safe }}</div>
               {% if item.information %}
-                {{ item.information }}
+                {{ item.information | safe }}
               {% endif %}
             </li>
       {% endfor %}

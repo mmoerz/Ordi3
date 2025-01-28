@@ -10,6 +10,6 @@
   {% endfor %}
   </div>
   <div class="openinfo">
-    {{ site.data.misc.openremark }}
+    Annahmeschluss <nobr>60 Min.</nobr> vor Ordinationsende
   </div>
 </div>

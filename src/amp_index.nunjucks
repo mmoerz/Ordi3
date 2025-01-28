@@ -1,5 +1,5 @@
 {% set author = "Marieta Mörz" %}
-{% set copyright = "&copy;Copyright 2020 Dr. Marieta Mörz" %}
+{% set copyright = "Copyright 2020 Dr. Marieta Mörz" %}
 {% set canonical = "https://www.ordimoerz.at/index.html" %}
 {% extends '_layouts/amp_base.nunjucks' %}
 
