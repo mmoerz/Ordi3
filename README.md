@@ -1,7 +1,10 @@
-# Test readme
+# ReadMe fuer Ordi3
 
-Generated on 2017-11-29 using
-[generator-yeogurt@2.0.1](https://github.com/larsonjj/generator-yeogurt)
+
+
+
+## Test fuer AMP Compatibilitaet
+https://search.google.com/test/amp
 
 ## Description
 
@@ -13,10 +16,6 @@ Describe your site/app here.
 JavaScript
 - [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
 - [Node](https://nodejs.org/)
-
-Testing
-- [Karma](http://karma-runner.github.io/0.13/index.html)
-- [Jasmine](http://jasmine.github.io/)
 
 Styles
 - [Stylus](https://learnboost.github.io/stylus/)
@@ -31,14 +30,10 @@ Optimization
 Server
 - [BrowserSync](http://www.browsersync.io/)
 
-Linting
-- [ESlint](http://eslint.org/)
-
 Automation
 - [Gulp](http://gulpjs.com)
 
 Code Management
-- [Editorconfig](http://editorconfig.org/)
 - [Git](https://git-scm.com/)
 
 
