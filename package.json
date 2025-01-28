@@ -10,7 +10,7 @@
     "gulp-nunjucks": "^6.0.0",
     "gulp-nunjucks-render": "^2.2.3",
     "jpegtran": "^2.0.0",
-    "jquery": "~3.1.1",
+    "jquery": "^3.5.0",
     "normalize.css": "~5.0.0"
   },
   "devDependencies": {
