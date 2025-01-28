@@ -19,7 +19,6 @@ import nunjucks_lib from 'nunjucks';
 import stylus from 'gulp-stylus';
 import jsonTransform from 'gulp-json-transform';
 import nunjucksRender from 'gulp-nunjucks-render';
-import inlineCss from 'gulp-inline-css';
 
 import browsersync from 'browser-sync';
 
@@ -31,7 +30,7 @@ var outdest='./tmp';
 // Error handler
 function handleError(err) {
 	console.log(err.toString());
-	process.ext(-1);
+	process.exit(-1);
 }
 
 // Clean assets
@@ -123,7 +122,7 @@ function data() {
 
 // copy robot.txt and sitemap.xml 
 function copy() {
-	return src(['./src/*.txt', './src/*.xml'])
+	return src(['./src/*.txt', './src/*.xml', './src/*.ico' ])
 	    .pipe(dest('./tmp'));
 }
 
@@ -155,7 +154,6 @@ function compile(cb) {
             manageEnv: manageEnvironment,
             loaders: null
         }))
-	//.pipe(inlineCss()) // does not work as expected
 	// fonts seem to get ignored
 	.pipe(dest(`${outdest}`));
 }
