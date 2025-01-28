@@ -40,6 +40,11 @@ Code Management
 ## Automated tasks
 
 This project uses [Gulp](http://gulpjs.com) to run automated tasks for development and production builds.
+At the moment supported parameters are:
+`gulp` or `gulp default`: which compiles the nunjuck templates into the .html files, minifies the images and stuffs the css as inline code in the .html file.
+
+Default output directory is ./tmp
+
 The tasks are as follows:
 
 `gulp --production`: Same as `gulp serve --production` also run `gulp test` and  not boot up production server
