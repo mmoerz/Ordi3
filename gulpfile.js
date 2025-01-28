@@ -164,6 +164,7 @@ function compile(cb) {
 
 function watchFiles() {
     watch('./src/_styles/*', css);
+    watch('./src/**.json', series(data, compile));
     watch('./src/**.nunjucks', series(data, compile));
     watch('./src/**/*.nunjucks', series(data, compile));
     watch('./src/_images/*', img);

@@ -2,26 +2,25 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "28.10.2024",
-      "bis": "31.10.2024"
+      "von": "10.02.2025"
     },
     "vertretung": {
-      "name": "Dr. Andrea Bori",
-      "tel": "01 / 259 61 91",
-      "fullnr": "004312596191",
-      "adresse": "Oswald-Redlich-Straße 36, 1210 Wien"
+      "name": "Dr. Tarek Zaydan",
+      "tel": "01 / 966 37 19",
+      "fullnr": "004319663719",
+      "adresse": "Scheydgasse 3/1/1, 1210 Wien"
     }
     },
     {
     "zeit": {
-      "von": "23.12.2024",
-      "bis": "3.1.2025"
+      "von": "11.02.2025",
+      "bis": "14.02.2025"
     },
     "vertretung": {
-      "name": "Dr. Andrea Bori",
-      "tel": "01 / 259 61 91",
-      "fullnr": "004312596191",
-      "adresse": "Oswald-Redlich-Straße 36, 1210 Wien"
+      "name": "Dr. Epp-Frühstück",
+      "tel": "01 / 292 14 70",
+      "fullnr": "004312921470",
+      "adresse": "Kaingasse 22, 1210 Wien"
     }
     }
   ],
@@ -29,6 +28,12 @@
     "zeit": {
       "von": "06.04.2020",
       "bis": "10.04.2020"
+    },
+    "vertretung": {
+      "name": "Dr. Andrea Bori",
+      "tel": "01 / 259 61 91",
+      "fullnr": "004312596191",
+      "adresse": "Oswald-Redlich-Straße 36, 1210 Wien"
     },
     "vertretung": {
       "name": "Dr. Tomislav Hofer",
