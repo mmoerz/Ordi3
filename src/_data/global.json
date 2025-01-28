@@ -5,5 +5,8 @@
   "sitemap_priority": "1.0",
   "sitemap_changefreq": "weekly",
   "author": "Dr. Marieta Mörz",
-  "copyright": "Copyright 2020 Dr. Marieta Mörz"
+  "copyright": "Copyright 2025 Dr. Marieta Mörz",
+  "amp": {
+    "canonical": "https://www.ordimoerz.at/index.html" 
+  }
 }

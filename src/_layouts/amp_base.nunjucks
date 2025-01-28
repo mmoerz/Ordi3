@@ -25,7 +25,7 @@
       <div class="footer">
         <p>
         {% if copyright %}
-          &copy;{{ copyright }}
+          &copy;{{ copyright | safe }}
         {% else %}
           &copy;{{ site.data.global.copyright | safe }}
         {% endif %}

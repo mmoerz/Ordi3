@@ -23,6 +23,9 @@ import inlineCss from 'gulp-inline-css';
 
 import browsersync from 'browser-sync';
 
+import fs from 'fs';
+
+
 var outdest='./tmp';
 
 // Error handler
@@ -85,15 +88,15 @@ function css() {
       }))
       .pipe(gulpif(argv.production, cssnano({rebase: false})))
       //.pipe(plugins.sourcemaps.write('./'))
-      //.pipe(dest('./src/styles'))
-      .pipe(dest(`${outdest}/styles`))
+      .pipe(dest('./src/styles'))
+      //.pipe(dest(`${outdest}/styles`))
       .pipe(browsersync.stream({match: '**/*.css'}));
 }
 
 // Optimize images
 // mmoerz: added flavour
 function img() {
-    return src('./src/_images/*')
+    return src(['./src/_images/**/*.svg', './src/_images/**/*.png', './src/_images/**/*.jpg'])
         .pipe(imagemin([
 	  imagemin.jpegtran({progressive: true}),
 	  imagemin.svgo({plugins: [{removeViewBox: false}]})
@@ -118,11 +121,18 @@ function data() {
 	.pipe(dest('debug'));
 }
 
+// copy robot.txt and sitemap.xml 
+function copy() {
+	return src(['./src/*.txt', './src/*.xml'])
+	    .pipe(dest('./tmp'));
+}
+
 const manageEnvironment = function(environment) {
 	environment.addFilter('safi', function(str) {
 	  return `${str} wurde als sicher angegeben`;
 	});
 	environment.addGlobal('site', site);
+	environment.addGlobal('production','2');
 }
 
 // better for loading data from json files
@@ -130,6 +140,9 @@ const manageEnvironment = function(environment) {
 //
 // https://www.npmjs.com/package/gulp-nunjucks-render
 function compile(cb) {
+    // read the precompiled css file (for inlining in the html file)
+    site['maincss'] = fs.readFileSync('./src/styles/main.amp.css', 'utf8')
+
     return src(['./src/*.nunjucks', '!./src/nohtml.*'])
         .pipe(nunjucksRender({
             path: ['src', 'src/_layouts'], // String or Array
@@ -145,7 +158,6 @@ function compile(cb) {
 	//.pipe(inlineCss()) // does not work as expected
 	// fonts seem to get ignored
 	.pipe(dest(`${outdest}`));
-    cb();
 }
 
 // Watch files
@@ -156,6 +168,8 @@ function watchFiles() {
     watch('./src/**/*.nunjucks', series(data, compile));
     watch('./src/_images/*', img);
     watch('./src/fonts/*', fonts);
+    watch('./src/*.txt', copy);
+    watch('./src/*.xml', copy);
 }
 
 // BrowserSync
@@ -176,8 +190,8 @@ task( 'watch', parallel(watchFiles, browserSync));
 task( 'default', 
 	series(clear, 
 		fonts,
-		parallel(js, css, img), 
-		data, 
+		parallel(js, css, img, copy), 
+		data,
 		compile)
 );
 

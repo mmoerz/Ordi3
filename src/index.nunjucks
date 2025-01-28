@@ -1,6 +1,3 @@
-{% set author = "Marieta Mörz" %}
-{% set copyright = "Copyright 2022 Dr. Marieta Mörz" %}
-{% set canonical = "https://www.ordimoerz.at/index.html" %}
 {% extends '_layouts/amp_base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
@@ -8,16 +5,19 @@
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 {% from "_modules/wbr/wbr.nunjucks" import wbr %}
 
-{% set production="" %}
-
 {% block stylesheets %}
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-iframe"  src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"> </script>
   <script async custom-element="amp-form"    src="https://cdn.ampproject.org/v0/amp-form-0.1.js">   </script>
   {% if production == "1" %}
     <style amp-custom>
-      {% include '_css/main.amp.css' %}
+      {% include 'styles/main.amp.css' %}
     </style>
+  {% elif production == "2" %}
+    <style amp-custom>
+      {{ site.maincss | safe }}
+    </style>
+
   {% else %}
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
@@ -116,7 +116,7 @@
 {{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
   {{ link.content( "Impressum", "impressum.html" ) }} 
 {{onescreen_end()}}
-<code class="version">v4.02.0</code>
+<code class="version">v5.00.0</code>
 
 {#
 <div id="target-element-right">
