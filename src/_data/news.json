@@ -2,7 +2,19 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "10.02.2025"
+      "von": "19.03.2025"
+    },
+    "vertretung": {
+      "name": "Dr. Fischlein",
+      "tel": "01 / 290 38 72",
+      "fullnr": "004312903872",
+      "adresse": "Ernst-Vasovecg. 14 Center 21, 1210 Wien"
+    }
+    },
+    {
+    "zeit": {
+      "von": "14.04.2025",
+      "bis": "18.04.2025"
     },
     "vertretung": {
       "name": "Dr. Tarek Zaydan",
@@ -13,13 +25,13 @@
     },
     {
     "zeit": {
-      "von": "11.02.2025",
-      "bis": "14.02.2025"
+      "von": "07.07.2025",
+      "bis": "18.07.2025"
     },
     "vertretung": {
-      "name": "Dr. Epp-Frühstück",
-      "tel": "01 / 292 14 70",
-      "fullnr": "004312921470",
+      "name": "Dr. Jasmin Kaya",
+      "tel": "01 / 294 62 37",
+      "fullnr": "004312946237",
       "adresse": "Kaingasse 22, 1210 Wien"
     }
     }
@@ -106,6 +118,12 @@
       "tel": "01 / 278 72 78",
       "fullnr": "004312787278",
       "adresse": "Pilzgasse 32-34/6/1, 1210 Wien"
+    },
+    "vertretung": {
+      "name": "Dr. Tarek Zaydan",
+      "tel": "01 / 966 37 19",
+      "fullnr": "004319663719",
+      "adresse": "Scheydgasse 3/1/1, 1210 Wien"
     }
   }],
   "hinweis": [{
