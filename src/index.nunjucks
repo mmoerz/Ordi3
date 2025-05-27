@@ -110,9 +110,10 @@
 
 <!-- Impressum -->
 {{onescreen_begin(id="impressum",sclass="ordi-pagepart ordi-pagebottom",class="mx-auto impressum")}}
-  {{ link.content( "Impressum", "impressum.html" ) }} 
+  {{ link.content( "Impressum", "impressum.html", class="impressumlink" ) }}
+  {{ link.content( "Datenschutzerklärung", "datens.html", class="impressumlink" ) }} 
 {{onescreen_end()}}
-<code class="version">v5.00.0</code>
+<code class="version">v5.10.0</code>
 
 {#
 <div id="target-element-right">

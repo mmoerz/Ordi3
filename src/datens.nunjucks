@@ -1,0 +1,240 @@
+{% extends '_layouts/amp_base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/amp/amp-img.nunjucks" as amp %}
+{% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
+{% from "_modules/wbr/wbr.nunjucks" import wbr %}
+
+{% block stylesheets %}
+  <!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  -->
+  {% if production == "1" %}
+    <style amp-custom>
+      {% include 'styles/main.amp.css' %}
+    </style>
+  {% elif production == "2" %}
+    <style amp-custom>
+      {{ site.maincss | safe }}
+    </style>
+  {% else %}
+    <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
+  {% endif %}
+{% endblock %}
+ 
+{% block content %}
+     
+<header class="ordi-headerbar fixed flex justify-start items-center top-0 left-0 right-0">
+  <div class="ordi-navbar-trigger md-hide lg-hide" 
+       tabindex="0">{{link.content("&lt; Zurück", "index.html#impressum") }}</div>
+  {{ amp.amp_img(src="LongLogo2.svg", 
+                 width="208", height="40", 
+                 alt="Ordi Marieta Mörz",
+                 class="mx-auto mt1 hidden") }}
+   <nav class="ordi-headerbar-nav xs-hide sm-hide">
+    <ul class="ordi-headerbar-nav justify-center flex nowrap list-reset">
+        <li class="ordi-headerbar-nav-item {{item.active}}"
+            tabindex="{{item.index}}"
+            role="button"
+            on="tap:{{item.cl}}.scrollTo">
+          {{ link.content("Zurück", "index.html#impressum") }}
+        </li>
+    </ul>
+  </nav>
+</header>
+
+{{onescreen_begin(id="willkommen",sclass="ordi-pagepart ordi-pagetop ordi-pagebottom",class="mx-auto")}}
+<div class="flex-title">
+  <h1>Datenschutz</h1><h1>erklärung</h1>
+</div>
+<p>
+Diese Website ist Cookie frei.
+</p>
+
+<h2>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h2>
+  <p>
+  Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber.
+  Deren Kontakdaten können dem Impressum entnommen werden.
+  </p>
+
+<h2>Wie werden Ihre Daten erfasst?</h2>
+<p>
+  Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der
+  Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten
+  (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).
+  Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website
+  betreten.
+</p>
+
+<h2>Wie werden ihre Daten genutzt?</h2>
+Teile der Daten werden für die Gewährleistung der fehlerfreien Bereitstellung
+der Website erhoben. Andere Teile können zur Analyse des Nutzerverhaltens
+verwendet werden.
+
+<h2>Ihre Rechte bezüglich ihrer Daten</h2>
+<p>
+Sie haben das Recht jederzeit, unentgeltlich Auskunft über Herkunft,
+Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten.
+Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu
+verlangen. 
+Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben,
+können Sie diese Einwilligung jederzeit für die Zukunft widerrufen.
+Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der
+Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen 
+Aufsichtsbehörde zu.
+</p>
+<p>
+Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich
+jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
+</p>
+
+<h2>Hosting</h2>
+<p>
+  Diese Website wird bei einem Hoster (externer Dienstleister) gehostet.
+  Die personenbezogenen Daten, die auf dieser Website erfasst werden,
+  werden auf den Servern des Hosters gespeichert. 
+  Hierbei handelt es sich v. a. um IP-Adressen, Websitezugriffen und sonstige
+  Daten, die durch die Website generiert werden.
+</p>
+<p>
+  Eingesetzt wird der Hosters zum Zwecke der Vertragserfüllung gegenüber
+  unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO)
+  und im Interesse einer sicheren, schnellen und effizienten Bereitstellung
+  unseres Online-Angebots durch einen professionellen Anbieter 
+  (Art. 6 Abs. 1 lit. f DSGVO).
+</p>
+<p>
+  Der Hoster ist A1 und hat die 
+  <a href="https://www.a1.digital/de/datenschutzerklaerung/">A1 Datenschutzerklärung</a>.
+</p>
+
+<h2>Content Delivery Networks</h2>
+<p>
+Diese Website verwendet Google AMP für die Beschleunigung auf mobilen Geräten.
+</p>
+<p>
+D.h. die Inhalte der Seite können auch über AMP-CDN von Google zur Verfügung
+gestellt werden. Bei deren Nutzung koennen Daten durch Google gespeichert 
+werden, v.a. Ihre IP-Adresse.
+</p>
+<p>
+Weitere Informationen zum Umgang mit Nutzerdaten können Sie der 
+<a href="https://policies.google.com/privacy?hl=de-AT&fg=1">Google Datenschutzerklärung</a>
+entnehmen.
+</p>
+
+<h2>Sonstiges</h2>
+<p>
+Diese Website verwendet eine eingebettete Google Maps Karte.
+</p>
+<p>
+Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse
+zu speichern. Diese Informationen werden in der Regel an einen Server von
+Google in den USA übertragen und dort gespeichert. 
+Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung.
+</p>
+<p>
+Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden
+Darstellung unserer Online-Angebote und an einer leichten Auffindbarkeit der
+von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes
+Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.
+Weitere Informationen zum Umgang mit Nutzerdaten können Sie der 
+<a href="https://policies.google.com/privacy?hl=de-AT&fg=1">Google Datenschutzerklärung</a>
+entnehmen.
+</p>
+
+<h2>Widerruf ihrer Einwillung zur Datenverarbeitung</h2>
+<p>
+Sie können jederzeit eine bereits erteilte Einwillung widerrufen.
+Bis zum Widerruf bleibt die Rechtmäßigkeit bis zum Widerruf erfolgter
+Datenverarbeitung unberührt.
+</p>
+
+<h2>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h2>
+<p>
+Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein
+Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat
+ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des
+mutmaßlichen Verstoßes zu.
+Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher
+oder gerichtlicher Rechtsbehelfe.
+</p>
+
+<h2>Recht auf Datenübertragbarkeit</h2>
+<p>
+Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in
+Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen
+Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen.
+Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen
+verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+</p>
+
+<h2>Auskunft, Löschung und Berichtigung</h2>
+<p>
+Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das
+Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen
+Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und
+ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu
+weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit
+unter der im Impressum angegebenen Adresse an uns wenden.
+</p>
+
+<h2>Recht auf Einschränkung der Verarbeitung</h2>
+<p>
+Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
+</p>
+<ul>
+  <li>
+    Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+  </li>
+  <li>
+    Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.
+  </li>
+  <li>
+    Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+  </li>
+  <li>
+    Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+  </li>
+</ul>
+<p>
+  Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
+</p>
+
+<!--
+
+Auftragsverarbeitung
+
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+Server-Log-Dateien
+
+Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+
+    Browsertyp und Browserversion
+    verwendetes Betriebssystem
+    Referrer URL
+    Hostname des zugreifenden Rechners
+    Uhrzeit der Serveranfrage
+    IP-Adresse
+
+Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
+
+Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.
+Anfrage per E-Mail, Telefon oder Telefax
+
+Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+
+Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
+
+Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt. 
+
+-->
+
+<p>
+  {{ data.impressum.info }}
+</p>
+{{onescreen_end()}}
+
+{% endblock %}
