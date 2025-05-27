@@ -1,4 +1,3 @@
-            
 import gulp from 'gulp'; 
 const { src, dest, parallel, series, watch, task } = gulp;
 
@@ -56,6 +55,10 @@ function js() {
         }))
         .pipe(dest(`${outdest}/js/`))
         .pipe(browsersync.stream());
+}
+
+function amp() {
+    const source = './src/_amp/*.url';
 }
 
 // just copy the fonts
@@ -148,8 +151,8 @@ function compile(cb) {
             ext: '.html',
             inheritExtension: false,
             envOptions: {
-		autoescaping: false, // otherwise prevents use of html tags
-                watch: false, // aendern fuers ueberwachen!!
+		          autoescaping: false, // otherwise prevents use of html tags
+              watch: false, // aendern fuers ueberwachen!!
             },
             manageEnv: manageEnvironment,
             loaders: null

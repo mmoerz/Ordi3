@@ -5,21 +5,23 @@
 {% from "_modules/onepage/onepage.nunjucks" import onescreen_begin, onescreen_end %}
 {% from "_modules/wbr/wbr.nunjucks" import wbr %}
 
-{% set production="0" %}
-  
 {% block stylesheets %}
-  {% if production == "1"%}
+
+  <!--  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  -->
+  {% if production == "1" %}
     <style amp-custom>
-      {% include '_css/main.test.css' %}
+      {% include 'styles/main.amp.css' %}
+    </style>
+  {% elif production == "2" %}
+    <style amp-custom>
+      {{ site.maincss | safe }}
     </style>
   {% else %}
     <link rel="stylesheet" href="{{baseUrl}}styles/main.amp.css"/>
   {% endif %}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-  <style amp-custom>
-    <!-- replace -->
-  </style>
 {% endblock %}
  
 {% block content %}

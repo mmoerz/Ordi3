@@ -1,20 +1,9 @@
 #!/bin/bash
+BASE=$(dirname $0)
 TARGETFOLDER='/webspace/httpdocs/ordimoerz.at'
-SOURCEFOLDER='/home/natoka/src/yo/tmp'
+SOURCEFOLDER="$BASE/tmp"
 
-if [ -d scripts ]; then
-  if [ -f scripts/credentials.sh ]; then
-    source scripts/credentials.sh
-  else
-    echo "USER=" >> scripts/credentials.sh
-    echo "PASS=" >> scripts/credentials.sh
-  fi
-fi
-
-if [ "X$USER" == "X" ]; then
-  echo USER not set
-  exit 1
-fi
+echo $BASE
 
 if [ ! -d $SOURCEFOLDER ]; then
   echo "$SOURCEFOLDER does not exist"
@@ -31,6 +20,20 @@ mv tmp/impressum.html.ampfixed tmp/impressum.html
 
 echo "not uploading, but exiting"
 exit
+
+if [ -d scripts ]; then
+  if [ -f scripts/credentials.sh ]; then
+    source scripts/credentials.sh
+  else
+    echo "USER=" >> scripts/credentials.sh
+    echo "PASS=" >> scripts/credentials.sh
+  fi
+fi
+
+if [ "X$USER" == "X" ]; then
+  echo USER not set
+  exit 1
+fi
 
 lftp <<EOF
 set ssl:ca-file /home/natoka/src/yo/CA.pem
