@@ -10,17 +10,6 @@ if [ ! -d $SOURCEFOLDER ]; then
   exit 1
 fi
 
-rm tmp/amp_index.html
-rm tmp/html.index.html
-
-./fix-the-amp.pl tmp/index.html
-./fix-the-amp.pl tmp/impressum.html
-mv tmp/index.html.ampfixed tmp/index.html
-mv tmp/impressum.html.ampfixed tmp/impressum.html
-
-echo "not uploading, but exiting"
-exit
-
 if [ -d scripts ]; then
   if [ -f scripts/credentials.sh ]; then
     source scripts/credentials.sh
