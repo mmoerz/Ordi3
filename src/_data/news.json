@@ -2,8 +2,8 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "10.06.2025",
-      "bis": "13.06.2025"
+      "von": "24.11.2025",
+      "bis": "28.11.2025"
     },
     "vertretung": {
       "name": "Dr. Epp-Frühstück",
@@ -14,14 +14,14 @@
     },
     {
     "zeit": {
-      "von": "07.07.2025",
-      "bis": "18.07.2025"
+      "von": "24.12.2025",
+      "bis": "06.01.2026"
     },
     "vertretung": {
-      "name": "Dr. Ida Kubik",
-      "tel": "01 / 96 30 303",
-      "fullnr": "004319630303",
-      "adresse": "Bahnsteggasse 17-23, 1210 Wien"
+      "name": "wird noch bekannt gegeben",
+      "tel": "",
+      "fullnr": "",
+      "adresse": ""
     }
     }
   ],
