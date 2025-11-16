@@ -131,40 +131,33 @@
   </p>
 </article>
 
-<h2>Influenza Gratis Impfungen</h2>
-<h3 align="left">Impftermine:</h3>
+<h2>Gratis Impfungen</h2>
 <div class="impfung">
-  <div>
-    <strong>Nur Influenza(=Grippe) Impfungen.</strong><br>
-    Keine Voranmeldung nötig. <br>
-    Nur solange der Vorrat reicht.
-  </div>
+  <h3 align="left">Influenza(=Grippe) Impfung</h3>
   <div>
     <ul>
+      <li>Keine Voranmeldung nötig. </li>
+      <li>Nur solange der Vorrat reicht.</li>
+    </ul>
+  </div>
+  <div>
+    Derzeit ist kein Influenza Impfstoff vorhanden, Nachschub ist bestellt.
+    Vorraussichtlich nächste Impfmöglichkeit:
+    <ul>
       <li>
-        Do, 23.10.2025 von 11:30-12:00<br>
+        Do, 04.12.2025 von 11:30-12:00<br>
       </li>
       <li>
-        Fr, 24.10.2025 von 11:30-12:00<br>
+        Fr, 05.12.2025 von 11:30-12:00<br>
       </li>
-      <li>
-        Do, 06.11.2025 von 11:30-12:00<br>
-      </li>
-      <li>
-        Fr, 07.11.2025 von 11:30-12:00<br>
-      </li>
-      <li>
-        Do, 13.11.2025 von 11:30-12:00<br>
-      </li>
-      <li>
-        Fr, 14.11.2025 von 11:30-12:00<br>
-      </li>
-      <li>
-        Do, 20.11.2025 von 11:30-12:00<br>
-      </li>
-      <li>
-        Fr, 21.11.2025 von 11:30-12:00<br>
-      </li>
+    </ul>
+  </div>
+</div>
+<div>
+  <h3 align="left">Pneumokokken Impfung:</h3>
+  <div>
+    <ul>
+      <li>Anmeldung ueber Dr. Mörz (SMS oder Anruf).</li>
     </ul>
   </div>
 </div>
