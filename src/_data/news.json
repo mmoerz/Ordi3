@@ -2,26 +2,14 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "24.11.2025",
-      "bis": "28.11.2025"
+      "von": "01.02.2026",
+      "bis": "07.02.2026"
     },
     "vertretung": {
-      "name": "Dr. Epp-Frühstück",
-      "tel": "699 / 152 022 00",
-      "fullnr": "004369915202200",
-      "adresse": "Kaingasse 22, 1210 Wien"
-    }
-    },
-    {
-    "zeit": {
-      "von": "24.12.2025",
-      "bis": "06.01.2026"
-    },
-    "vertretung": {
-      "name": "wird noch bekannt gegeben",
-      "tel": "",
-      "fullnr": "",
-      "adresse": ""
+      "name": "Dr. Ida Kubik",
+      "tel": "01 / 963 03 03",
+      "fullnr": "004319630303",
+      "adresse": "Bahnsteggasse 17-23/Objekt A, 1210 Wien"
     }
     }
   ],
