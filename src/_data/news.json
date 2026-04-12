@@ -2,8 +2,20 @@
   "urlaub": [
     {
     "zeit": {
-      "von": "02.02.2026",
-      "bis": "08.02.2026"
+      "von": "25.05.2026",
+      "bis": "29.05.2026"
+    },
+    "vertretung": {
+      "name": "Dr. Wiederkehr Veres Brigitte",
+      "tel": "01 / 278 72 78",
+      "fullnr": "004312787278",
+      "adresse": "Pilzgasse 32-34/6/1, 1210 Wien"
+    }
+    },
+    {
+    "zeit": {
+      "von": "13.07.2026",
+      "bis": "24.07.2026"
     },
     "vertretung": {
       "name": "Dr. Ida Kubik",

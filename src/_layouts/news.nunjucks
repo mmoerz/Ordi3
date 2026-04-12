@@ -25,14 +25,25 @@
             {% endif %}
             {% if item.vertretung %}
               <div class="vertretung">
-              (
-              Vertretung: {{ item.vertretung.name }}, {{ item.vertretung.adresse }}, 
-              <div class="telnr lg-hide">
-                <a class="telnr" href="tel:{{ item.vertretung.fullnr }}">
-                  {{ item.vertretung.tel }}
-                </a>
-              </div>
-              <div class="telnr xs-hide">{{ item.vertretung.tel }}</div>)
+                <div class="row">
+                  <div class="vertretung-titel col-sm">
+                    Vertretung:
+                  </div>
+                  <div class="vertretung daten col-sm pl-2">
+                    <div class="vertretung-dr">
+                      {{ item.vertretung.name }}
+                    </div>
+                    <div class="vertretung-adresse">
+                      {{ item.vertretung.adresse }}
+                    </div>
+                    <div class="telnr lg-hide">
+                      <a class="telnr" href="tel:{{ item.vertretung.fullnr }}">
+                        {{ item.vertretung.tel }}
+                      </a>
+                    </div>
+                    <div class="telnr xs-hide">{{ item.vertretung.tel }}</div>
+                  </div>
+                </div>
               </div>
             {% endif %}
             {% if item.information %}
