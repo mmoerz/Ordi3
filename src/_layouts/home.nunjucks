@@ -165,11 +165,19 @@
     </ul>
   </div>
   <div>
-    Impftermine:
+    Impftermine (solange der Vorrat reicht):
     <ul>
       <li>
-        Ein weiterer Termin wird noch bekanntgegeben. Anmeldung bei Fr. Dani.
+        jeden Do von 11:30-11:45<br>
       </li>
+      <li>
+        jeden Fr von 11:30-11:45<br>
+      </li>
+      <!--
+      <li>
+        Ein weiterer Termin wird noch bekanntgegeben. Anmeldung bei Fr. Dani.
+        </li>
+        --!>
     </ul>
   </div>
 </div>
@@ -206,20 +214,22 @@
     </ul>
   </div>
   <div>
-    Impftermine 2-te Impfung:
+    Impftermine (solange der Vorrat reicht):
     <ul>
       <li>
-        Do, 07.05.2026 von 11:30-12:00<br>
+        jeden Do von 11:30-11:45<br>
       </li>
       <li>
-        Fr, 08.05.2026 von 11:30-12:00<br>
+        jeden Fr von 11:30-11:45<br>
       </li>
+      <!--
       <li>
         Do, 21.05.2026 von 11:30-12:00<br>
       </li>
       <li>
         Fr, 22.05.2026 von 11:30-12:00<br>
       </li>
+      --!>
     </ul>
   </div>
 </div>
